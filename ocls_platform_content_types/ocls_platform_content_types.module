@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ocls Platform Content Types feature.
+ */
+
+include_once 'ocls_platform_content_types.features.inc';
