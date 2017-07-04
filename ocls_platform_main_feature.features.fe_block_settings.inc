@@ -12,39 +12,6 @@ function ocls_platform_main_feature_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['accordion_rotator-accordion_rotator'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'accordion_rotator',
-    'module' => 'accordion_rotator',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => -25,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
   $export['block-submit_to_collection_anonymous'] = array(
     'cache' => -1,
     'css_class' => 'submit-collection-anon',
@@ -67,7 +34,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -18,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -102,7 +69,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -19,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -122,16 +89,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora_bookmark',
     'module' => 'islandora_bookmark',
     'node_types' => array(),
-    'pages' => 'islandora/object/cc*
-islandora/object/dc*
-islandora/object/jibc*
-islandora/object/unbc*
-islandora/object/ecuad*
-islandora/object/tru*
-islandora/object/twu*
-islandora/object/sc*
-islandora/object/ufv*
-islandora/object/cotr*',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -141,10 +99,10 @@ islandora/object/cotr*',
         'weight' => 0,
       ),
       'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -35,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -154,7 +112,7 @@ islandora/object/cotr*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_bookmark-islandora_bookmark_list_info'] = array(
@@ -240,10 +198,10 @@ islandora/object/cotr*',
         'weight' => 0,
       ),
       'ocls_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -37,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -267,8 +225,8 @@ islandora/object/cotr*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'bartik',
         'weight' => 0,
       ),
@@ -276,7 +234,7 @@ islandora/object/cotr*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -38,
+        'weight' => -28,
       ),
       'seven' => array(
         'region' => '',
@@ -310,7 +268,7 @@ islandora/search',
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -37,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -334,16 +292,16 @@ islandora/search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'bartik',
-        'weight' => 0,
+        'weight' => -31,
       ),
       'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -18,
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => '',
@@ -376,7 +334,7 @@ islandora/search',
         'region' => '',
         'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -37,
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => '',
@@ -386,7 +344,7 @@ islandora/search',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['islandora_solr-explore'] = array(
@@ -475,7 +433,7 @@ islandora/search',
         'region' => 'navigation',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -34,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -508,105 +466,6 @@ islandora/search',
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -39,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'Sort',
-    'visibility' => 0,
-  );
-
-  $export['islandora_usage_stats-recent_activity'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'recent_activity',
-    'module' => 'islandora_usage_stats',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['islandora_usage_stats-top_search'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'top_search',
-    'module' => 'islandora_usage_stats',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['islandora_usage_stats-top_usage'] = array(
-    'cache' => 1,
-    'css_class' => 'mostviewed',
-    'custom' => 0,
-    'delta' => 'top_usage',
-    'module' => 'islandora_usage_stats',
-    'node_types' => array(),
-    'pages' => 'about/usage',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ocls_theme',
         'weight' => -33,
       ),
       'seven' => array(
@@ -616,40 +475,7 @@ islandora/search',
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
-  $export['menu-menu-ocls-main'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'menu-ocls-main',
-    'module' => 'menu',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
+    'title' => 'Sort',
     'visibility' => 0,
   );
 
@@ -673,7 +499,7 @@ islandora/search',
         'region' => '',
         'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -37,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -772,7 +598,7 @@ islandora/search',
         'region' => '',
         'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -1,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => 'dashboard_sidebar',
@@ -787,7 +613,7 @@ islandora/search',
 
   $export['superfish-1'] = array(
     'cache' => -1,
-    'css_class' => 'superfish-main-menu-header',
+    'css_class' => '',
     'custom' => 0,
     'delta' => 1,
     'module' => 'superfish',
@@ -865,13 +691,13 @@ islandora/search',
         'region' => 'content',
         'status' => 1,
         'theme' => 'bartik',
-        'weight' => 0,
+        'weight' => -30,
       ),
       'ocls_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -35,
+        'weight' => -27,
       ),
       'seven' => array(
         'region' => 'content',
@@ -970,7 +796,7 @@ islandora/search',
         'region' => '',
         'status' => 0,
         'theme' => 'ocls_theme',
-        'weight' => -20,
+        'weight' => 10,
       ),
       'seven' => array(
         'region' => '',
@@ -1000,10 +826,10 @@ islandora/search',
         'weight' => 0,
       ),
       'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -19,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1013,206 +839,6 @@ islandora/search',
       ),
     ),
     'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-a6803c27312ad17d6a196ab1793ef7e2'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'a6803c27312ad17d6a196ab1793ef7e2',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => 'islandora/search
-islandora/search/*',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'ocls_theme',
-        'weight' => -36,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'Most Viewed',
-    'visibility' => 0,
-  );
-
-  $export['views-fa24ffb32c2961dda709a6100317ea9f'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'fa24ffb32c2961dda709a6100317ea9f',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => 'islandora/search
-islandora/search/*',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'ocls_theme',
-        'weight' => -35,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'Recently Added',
-    'visibility' => 0,
-  );
-
-  $export['views-footer_view_alternative-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'footer_view_alternative-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-footer_view_primary-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'footer_view_primary-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ocls_theme',
-        'weight' => -36,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 0,
-  );
-
-  $export['views-sort_by_title-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'sort_by_title-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => -37,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-usage_collection-usage_stats'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'usage_collection-usage_stats',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ocls_theme',
-        'weight' => -37,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'Most Viewed c',
     'visibility' => 0,
   );
 

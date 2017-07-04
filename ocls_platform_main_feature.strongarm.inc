@@ -78,14 +78,14 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'main' => '#fffff5',
+    'main' => '#f9f9f9',
     'header' => '#ffffff',
-    'navigation' => '#5b186a',
-    'sidebars' => '#eee7f0',
+    'navigation' => '#266cac',
+    'sidebars' => '#f1f1f1',
     'footer' => '#ffffff',
-    'footer_top' => '#5b186a',
-    'front_box' => '#5b186a',
-    'menu_color' => '#5b186a',
+    'footer_top' => '#000000',
+    'front_box' => '#000000',
+    'menu_color' => '#000000',
   );
   $export['designkit_color'] = $strongarm;
 
@@ -195,7 +195,6 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->name = 'islandora_use_kakadu';
   $strongarm->value = 1;
   $export['islandora_use_kakadu'] = $strongarm;
-
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -396,7 +395,7 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_menu_1';
-  $strongarm->value = 'menu-ocls-main:0';
+  $strongarm->value = 'menu-bceln-main:0';
   $export['superfish_menu_1'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -695,10 +694,17 @@ sites/all/libraries/superfish/sfsmallscreen.js';
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'theme_default';
+  $strongarm->value = 'ocls_theme';
+  $export['theme_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_ocls_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
-    'toggle_name' => 1,
+    'toggle_name' => 0,
     'toggle_slogan' => 0,
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
@@ -715,7 +721,7 @@ sites/all/libraries/superfish/sfsmallscreen.js';
     'zen_breadcrumb_separator' => ' › ',
     'zen_breadcrumb_home' => 1,
     'zen_breadcrumb_trailing' => 0,
-    'zen_breadcrumb_title' => 1,
+    'zen_breadcrumb_title' => 0,
     'zen_skip_link_anchor' => 'main-menu',
     'zen_skip_link_text' => 'Jump to navigation',
     'zen_html5_respond_meta' => array(
@@ -725,32 +731,28 @@ sites/all/libraries/superfish/sfsmallscreen.js';
     ),
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
-    'ocls_theme_search_text' => 'Search Arca and discover institutional treasures. Find scholarly research materials and other digital assets like newsletters, images, multimedia, and much more.',
-    'ocls_theme_search_heading' => 'Discovery BC\'s Digital Treasures',
+    'ocls_theme_search_text' => '',
+    'ocls_theme_search_heading' => 'Discover OCLS Collections',
     'ocls_theme_collections_meta' => '0',
-    'ocls_slideshow_pids' => 'islandora:38,islandora:39',
+    'ocls_slideshow_pids' => 'islandora:root',
     'ocls_show_basic_record' => '1',
     'ocls_show_collection_search' => '1',
-    'ocls_background_dsid' => 'JPG',
+    'ocls_background_dsid' => 'TN',
+    'ocls_bio_label' => 'Biography',
+    'ocls_meta_des' => 'Description',
+    'ocls_collection_items_details' => '0',
     'designkit_color' => array(
-      'main' => '#fffff5',
+      'main' => '#f9f9f9',
       'header' => '#ffffff',
-      'navigation' => '#5b186a',
-      'sidebars' => '#eee7f0',
+      'navigation' => '#266cac',
+      'sidebars' => '#f1f1f1',
       'footer' => '#ffffff',
-      'footer_top' => '#5b186a',
-      'front_box' => '#5b186a',
-      'menu_color' => '#5b186a',
+      'footer_top' => '#000000',
+      'front_box' => '#000000',
+      'menu_color' => '#000000',
     ),
   );
   $export['theme_ocls_theme_settings'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'theme_default';
-  $strongarm->value = 'ocls_theme';
-  $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

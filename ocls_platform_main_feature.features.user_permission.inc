@@ -365,15 +365,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'filter',
   );
 
-  // Exported permission: 'administer flexslider'.
-  $permissions['administer flexslider'] = array(
-    'name' => 'administer flexslider',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'flexslider',
-  );
-
   // Exported permission: 'administer google analytics'.
   $permissions['administer google analytics'] = array(
     'name' => 'administer google analytics',
@@ -1267,15 +1258,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'islandora',
   );
 
-  // Exported permission: 'manage usage stats'.
-  $permissions['manage usage stats'] = array(
-    'name' => 'manage usage stats',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_usage_stats',
-  );
-
   // Exported permission: 'migrate collection members'.
   $permissions['migrate collection members'] = array(
     'name' => 'migrate collection members',
@@ -1510,15 +1492,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'filter',
   );
 
-  // Exported permission: 'view accordion_rotator'.
-  $permissions['view accordion_rotator'] = array(
-    'name' => 'view accordion_rotator',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'accordion_rotator',
-  );
-
   // Exported permission: 'view fedora repository objects'.
   $permissions['view fedora repository objects'] = array(
     'name' => 'view fedora repository objects',
@@ -1537,24 +1510,6 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_piwik',
-  );
-
-  // Exported permission: 'view islandora usage stats collection overview stats'.
-  $permissions['view islandora usage stats collection overview stats'] = array(
-    'name' => 'view islandora usage stats collection overview stats',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_usage_stats',
-  );
-
-  // Exported permission: 'view islandora usage stats reports'.
-  $permissions['view islandora usage stats reports'] = array(
-    'name' => 'view islandora usage stats reports',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_usage_stats',
   );
 
   // Exported permission: 'view marcxml output'.
