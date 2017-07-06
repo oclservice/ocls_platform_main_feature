@@ -240,6 +240,13 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_amw_1';
+  $strongarm->value = 0;
+  $export['superfish_amw_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'superfish_arrow_1';
   $strongarm->value = 1;
   $export['superfish_arrow_1'] = $strongarm;
@@ -250,6 +257,13 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->name = 'superfish_bgf_1';
   $strongarm->value = 0;
   $export['superfish_bgf_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_clone_parent_1';
+  $strongarm->value = 0;
+  $export['superfish_clone_parent_1'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -395,7 +409,7 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_menu_1';
-  $strongarm->value = 'menu-bceln-main:0';
+  $strongarm->value = 'main-menu:0';
   $export['superfish_menu_1'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -477,9 +491,37 @@ sites/all/libraries/superfish/sfsmallscreen.js';
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_smallabt_1';
+  $strongarm->value = '1';
+  $export['superfish_smallabt_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_smallact_1';
+  $strongarm->value = '1';
+  $export['superfish_smallact_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_smallamt_1';
+  $strongarm->value = '';
+  $export['superfish_smallamt_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'superfish_smallasa_1';
   $strongarm->value = 0;
   $export['superfish_smallasa_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_smallbpu_1';
+  $strongarm->value = 'px';
+  $export['superfish_smallbpu_1'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -596,9 +638,37 @@ sites/all/libraries/superfish/sfsmallscreen.js';
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_supersubs_emm_1';
+  $strongarm->value = 0;
+  $export['superfish_supersubs_emm_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_touchbh_1';
+  $strongarm->value = '2';
+  $export['superfish_touchbh_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_touchbpu_1';
+  $strongarm->value = 'px';
+  $export['superfish_touchbpu_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'superfish_touchbp_1';
   $strongarm->value = '768';
   $export['superfish_touchbp_1'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'superfish_touchdh_1';
+  $strongarm->value = 0;
+  $export['superfish_touchdh_1'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
