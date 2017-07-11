@@ -50,7 +50,6 @@ dependencies[] = ocls_platform_content_types
 dependencies[] = overlay
 dependencies[] = owlcarousel_ui
 dependencies[] = path
-dependencies[] = platform_owl_feature
 dependencies[] = role_delegation
 dependencies[] = rules
 dependencies[] = shortcut
