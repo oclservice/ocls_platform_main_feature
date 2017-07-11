@@ -96,6 +96,7 @@ features[fe_block_settings][] = system-navigation
 features[fe_block_settings][] = system-powered-by
 features[fe_block_settings][] = system-user-menu
 features[fe_block_settings][] = user-login
+features[fe_block_settings][] = views-footer_view_primary-block
 features[features_api][] = api:2
 features[menu_links][] = menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
 features[menu_links][] = menu-footer-menu_login:user/login

@@ -651,7 +651,7 @@ islandora/search',
     'delta' => 1,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -905,6 +905,39 @@ islandora/search',
       ),
     ),
     'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-footer_view_primary-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'footer_view_primary-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ocls_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'ocls_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 0,
   );
 

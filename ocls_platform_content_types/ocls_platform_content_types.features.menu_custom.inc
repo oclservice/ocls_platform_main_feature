@@ -16,12 +16,6 @@ function ocls_platform_content_types_menu_default_menu_custom() {
     'title' => 'Main menu',
     'description' => 'The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar.',
   );
-  // Exported menu: menu-ocls-main.
-  $menus['menu-ocls-main'] = array(
-    'menu_name' => 'menu-ocls-main',
-    'title' => 'ocls main',
-    'description' => '',
-  );
   // Exported menu: menu-footer-menu.
   $menus['menu-footer-menu'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -40,6 +34,12 @@ function ocls_platform_content_types_menu_default_menu_custom() {
     'title' => 'Frontpage menu (left column)',
     'description' => '',
   );
+  // Exported menu: menu-ocls-main.
+  $menus['menu-ocls-main'] = array(
+    'menu_name' => 'menu-ocls-main',
+    'title' => 'ocls main',
+    'description' => '',
+  );
   // Exported menu: navigation.
   $menus['navigation'] = array(
     'menu_name' => 'navigation',
@@ -54,7 +54,6 @@ function ocls_platform_content_types_menu_default_menu_custom() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('ocls main');
   t('Footer Menu');
   t('Frontpage menu (left column)');
   t('Frontpage menu (right column)');
@@ -64,6 +63,7 @@ function ocls_platform_content_types_menu_default_menu_custom() {
   t('The <em>Navigation</em> menu contains links intended for site visitors. Links are added to the <em>Navigation</em> menu automatically by some modules.');
   t('The <em>User</em> menu contains links related to the user\'s account, as well as the \'Log out\' link.');
   t('User menu');
+  t('ocls main');
 
   return $menus;
 }
