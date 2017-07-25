@@ -81,6 +81,11 @@ function ocls_platform_main_feature_views_default_views() {
     2 => 'AND',
     3 => 'AND',
   );
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'e5173edc-e23d-49f2-8113-ce5f4bf30f58';
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
