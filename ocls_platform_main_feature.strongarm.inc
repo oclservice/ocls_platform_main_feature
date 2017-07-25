@@ -152,6 +152,13 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_compound_object_compound_children';
+  $strongarm->value = 0;
+  $export['islandora_compound_object_compound_children'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_large_image_viewers';
   $strongarm->value = array(
     'name' => array(
