@@ -15,5 +15,6 @@ features[islandora_solr_metadata_configurations][] = NewspaperMODS
 features[islandora_solr_metadata_configurations][] = PDF_MODS
 features[islandora_solr_metadata_configurations][] = VideoMODS
 features[islandora_solr_metadata_configurations][] = department
+features[islandora_solr_metadata_configurations][] = oclsBase
 features[islandora_solr_metadata_configurations][] = scholar
 project path = sites/all/modules/ocls_platform_main_feature
