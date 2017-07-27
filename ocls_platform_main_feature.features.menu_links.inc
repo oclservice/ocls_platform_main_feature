@@ -10,6 +10,26 @@
 function ocls_platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_browse-all-collections:islandora.
+  $menu_links['main-menu_browse-all-collections:islandora'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Browse All Collections',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_browse-all-collections:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -194,6 +214,7 @@ function ocls_platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('About this site');
+  t('Browse All Collections');
   t('Browse Collections');
   t('Creative content license');
   t('Login');
