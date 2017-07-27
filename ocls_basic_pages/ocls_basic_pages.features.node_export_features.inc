@@ -490,7 +490,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'5406\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1499868131\',
+            \'timestamp\' => \'1501164655\',
             \'uuid\' => \'1b17d50a-2b79-4114-9ca7-3c050ee2a0b4\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -610,7 +610,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/2\',
+        \'source\' => \'node/6\',
         \'alias\' => \'advanced-search\',
         \'language\' => \'en\',
       ),

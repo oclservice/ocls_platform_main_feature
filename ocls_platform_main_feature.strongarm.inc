@@ -812,7 +812,7 @@ sites/all/libraries/superfish/sfsmallscreen.js';
     'ocls_theme_search_heading' => 'Discover OCLS Collections',
     'ocls_theme_collections_meta' => '0',
     'ocls_slideshow_pids' => 'islandora:root',
-    'ocls_show_basic_record' => '1',
+    'ocls_show_basic_record' => '0',
     'ocls_show_collection_search' => '1',
     'ocls_background_dsid' => 'TN',
     'ocls_bio_label' => 'Biography',
