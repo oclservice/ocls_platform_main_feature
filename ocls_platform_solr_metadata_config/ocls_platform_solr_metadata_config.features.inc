@@ -323,7 +323,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_fields_features_defau
     'solr_field_settings' => array(
       'label' => 'Collection',
       'sort_by' => 'count',
-      'pid_object_label' => NULL,
+      'pid_object_label' => 1,
       'permissions' => array(
         1 => 1,
         2 => 2,
