@@ -1518,6 +1518,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['share islandora bookmarks'] = array(
     'name' => 'share islandora bookmarks',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_bookmark',
