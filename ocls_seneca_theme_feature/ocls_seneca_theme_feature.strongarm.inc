@@ -13,6 +13,13 @@ function ocls_seneca_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_namespace_restriction_enforced';
+  $strongarm->value = 1;
+  $export['islandora_namespace_restriction_enforced'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_pids_allowed';
   $strongarm->value = 'seneca:';
   $export['islandora_pids_allowed'] = $strongarm;

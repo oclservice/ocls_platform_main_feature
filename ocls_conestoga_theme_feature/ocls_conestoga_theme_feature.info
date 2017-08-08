@@ -13,6 +13,7 @@ features[ctools][] = views:views_default:3.0
 features[fe_block_settings][] = views-58d93360002ca2b41ae1958e5ea20f43
 features[features_api][] = api:2
 features[node_export_features][] = 2c0773eb-5fc2-4d90-bdd6-a51eb61acc5c
+features[variable][] = islandora_namespace_restriction_enforced
 features[variable][] = islandora_pids_allowed
 features[variable][] = islandora_repository_pid
 features[variable][] = site_name
