@@ -28,7 +28,7 @@ function ocls_centennial_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_repository_pid';
-  $strongarm->value = 'islandora:centennial';
+  $strongarm->value = 'centennial:root';
   $export['islandora_repository_pid'] = $strongarm;
 
   $strongarm = new stdClass();
