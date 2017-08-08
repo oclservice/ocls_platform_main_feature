@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OCLS Seneca Theme Feature feature.
+ */
+
+include_once 'ocls_seneca_theme_feature.features.inc';

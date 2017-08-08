@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OCLS Conestoga Theme Feature feature.
+ */
+
+include_once 'ocls_conestoga_theme_feature.features.inc';
