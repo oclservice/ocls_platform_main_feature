@@ -10,10 +10,16 @@
 function ocls_platform_main_feature_user_default_roles() {
   $roles = array();
 
+  // Exported role: Content Contributor.
+  $roles['Content Contributor'] = array(
+    'name' => 'Content Contributor',
+    'weight' => 2,
+  );
+
   // Exported role: administrator.
   $roles['administrator'] = array(
     'name' => 'administrator',
-    'weight' => 2,
+    'weight' => 3,
   );
 
   return $roles;
