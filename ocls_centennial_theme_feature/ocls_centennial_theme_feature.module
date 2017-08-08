@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OCLS Centennial Theme Feature feature.
+ */
+
+include_once 'ocls_centennial_theme_feature.features.inc';

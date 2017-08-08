@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OCLS Main Theme Feature feature.
+ */
+
+include_once 'ocls_main_theme_feature.features.inc';
