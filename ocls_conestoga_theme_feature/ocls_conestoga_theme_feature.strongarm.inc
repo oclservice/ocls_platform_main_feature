@@ -13,6 +13,20 @@ function ocls_conestoga_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_pids_allowed';
+  $strongarm->value = 'conestoga:';
+  $export['islandora_pids_allowed'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_repository_pid';
+  $strongarm->value = 'conestoga:root';
+  $export['islandora_repository_pid'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
   $strongarm->value = 'Conestoga College';
   $export['site_name'] = $strongarm;
