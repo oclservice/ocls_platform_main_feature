@@ -59,6 +59,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['Import entities from csv'] = array(
     'name' => 'Import entities from csv',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_entities_csv_import',
@@ -234,6 +235,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['add fedora datastreams'] = array(
     'name' => 'add fedora datastreams',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -243,6 +245,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['add or remove islandora object lock'] = array(
     'name' => 'add or remove islandora object lock',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_object_lock',
@@ -413,7 +416,9 @@ function ocls_platform_main_feature_user_default_permissions() {
   // Exported permission: 'administer islandora oai'.
   $permissions['administer islandora oai'] = array(
     'name' => 'administer islandora oai',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'islandora_oai',
   );
 
@@ -462,6 +467,15 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'islandora_solr_metadata',
   );
 
+  // Exported permission: 'administer islandora_solr_suggester'.
+  $permissions['administer islandora_solr_suggester'] = array(
+    'name' => 'administer islandora_solr_suggester',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_solr_suggester',
+  );
+
   // Exported permission: 'administer islandora_xacml_api'.
   $permissions['administer islandora_xacml_api'] = array(
     'name' => 'administer islandora_xacml_api',
@@ -487,6 +501,15 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_xquery',
+  );
+
+  // Exported permission: 'administer languages'.
+  $permissions['administer languages'] = array(
+    'name' => 'administer languages',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'locale',
   );
 
   // Exported permission: 'administer menu'.
@@ -736,6 +759,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['bypass inactive object state'] = array(
     'name' => 'bypass inactive object state',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_simple_workflow',
@@ -817,9 +841,19 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['create child collection'] = array(
     'name' => 'create child collection',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_basic_collection',
+  );
+
+  // Exported permission: 'create datastreams'.
+  $permissions['create datastreams'] = array(
+    'name' => 'create datastreams',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'create image_block content'.
@@ -843,6 +877,15 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'create objects'.
+  $permissions['create objects'] = array(
+    'name' => 'create objects',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
+  );
+
   // Exported permission: 'create page content'.
   $permissions['create page content'] = array(
     'name' => 'create page content',
@@ -850,6 +893,15 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'create relationships'.
+  $permissions['create relationships'] = array(
+    'name' => 'create relationships',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'create url aliases'.
@@ -918,6 +970,15 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete datastreams'.
+  $permissions['delete datastreams'] = array(
+    'name' => 'delete datastreams',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
+  );
+
   // Exported permission: 'delete fedora objects and datastreams'.
   $permissions['delete fedora objects and datastreams'] = array(
     'name' => 'delete fedora objects and datastreams',
@@ -925,6 +986,15 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
+  );
+
+  // Exported permission: 'delete objects'.
+  $permissions['delete objects'] = array(
+    'name' => 'delete objects',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'delete own article content'.
@@ -964,6 +1034,15 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'delete relationships'.
+  $permissions['delete relationships'] = array(
+    'name' => 'delete relationships',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'delete revisions'.
@@ -1036,6 +1115,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['edit fedora metadata'] = array(
     'name' => 'edit fedora metadata',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1111,7 +1191,9 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['export islandora bookmarks'] = array(
     'name' => 'export islandora bookmarks',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_bookmark',
   );
@@ -1152,6 +1234,15 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
+  // Exported permission: 'generate datastream token'.
+  $permissions['generate datastream token'] = array(
+    'name' => 'generate datastream token',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
+  );
+
   // Exported permission: 'generate features'.
   $permissions['generate features'] = array(
     'name' => 'generate features',
@@ -1183,6 +1274,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['ingest fedora objects'] = array(
     'name' => 'ingest fedora objects',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1191,8 +1283,19 @@ function ocls_platform_main_feature_user_default_permissions() {
   // Exported permission: 'islandora_batch_manage_queue'.
   $permissions['islandora_batch_manage_queue'] = array(
     'name' => 'islandora_batch_manage_queue',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'islandora_batch',
+  );
+
+  // Exported permission: 'list relationships'.
+  $permissions['list relationships'] = array(
+    'name' => 'list relationships',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'manage collection policy'.
@@ -1253,6 +1356,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['manage object properties'] = array(
     'name' => 'manage object properties',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1262,9 +1366,28 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['migrate collection members'] = array(
     'name' => 'migrate collection members',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_basic_collection',
+  );
+
+  // Exported permission: 'modify datastreams'.
+  $permissions['modify datastreams'] = array(
+    'name' => 'modify datastreams',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
+  );
+
+  // Exported permission: 'modify object properties'.
+  $permissions['modify object properties'] = array(
+    'name' => 'modify object properties',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'oauth authorize any consumers'.
@@ -1307,7 +1430,10 @@ function ocls_platform_main_feature_user_default_permissions() {
   // Exported permission: 'regenerate derivatives for an object'.
   $permissions['regenerate derivatives for an object'] = array(
     'name' => 'regenerate derivatives for an object',
-    'roles' => array(),
+    'roles' => array(
+      'Content Contributor' => 'Content Contributor',
+      'administrator' => 'administrator',
+    ),
     'module' => 'islandora',
   );
 
@@ -1323,7 +1449,10 @@ function ocls_platform_main_feature_user_default_permissions() {
   // Exported permission: 'replace a datastream with new content, preserving version history'.
   $permissions['replace a datastream with new content, preserving version history'] = array(
     'name' => 'replace a datastream with new content, preserving version history',
-    'roles' => array(),
+    'roles' => array(
+      'Content Contributor' => 'Content Contributor',
+      'administrator' => 'administrator',
+    ),
     'module' => 'islandora',
   );
 
@@ -1340,6 +1469,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['revert to old datastream'] = array(
     'name' => 'revert to old datastream',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1367,6 +1497,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['search islandora solr'] = array(
     'name' => 'search islandora solr',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1409,6 +1540,15 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: 'translate interface'.
+  $permissions['translate interface'] = array(
+    'name' => 'translate interface',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'locale',
   );
 
   // Exported permission: 'use PHP for tracking visibility'.
@@ -1460,7 +1600,9 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['use islandora_bookmark'] = array(
     'name' => 'use islandora_bookmark',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_bookmark',
   );
@@ -1492,10 +1634,20 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'filter',
   );
 
+  // Exported permission: 'view datastreams'.
+  $permissions['view datastreams'] = array(
+    'name' => 'view datastreams',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
+  );
+
   // Exported permission: 'view fedora repository objects'.
   $permissions['view fedora repository objects'] = array(
     'name' => 'view fedora repository objects',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1515,14 +1667,26 @@ function ocls_platform_main_feature_user_default_permissions() {
   // Exported permission: 'view marcxml output'.
   $permissions['view marcxml output'] = array(
     'name' => 'view marcxml output',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'islandora_marcxml',
+  );
+
+  // Exported permission: 'view objects'.
+  $permissions['view objects'] = array(
+    'name' => 'view objects',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'islandora_rest',
   );
 
   // Exported permission: 'view old datastream versions'.
   $permissions['view old datastream versions'] = array(
     'name' => 'view old datastream versions',
     'roles' => array(
+      'Content Contributor' => 'Content Contributor',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
