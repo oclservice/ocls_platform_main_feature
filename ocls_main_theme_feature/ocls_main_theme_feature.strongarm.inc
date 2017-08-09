@@ -21,7 +21,7 @@ function ocls_main_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_pids_allowed';
-  $strongarm->value = '';
+  $strongarm->value = 'centennial: seneca: conestoga: fleming: loyalist: georgian: ir:';
   $export['islandora_pids_allowed'] = $strongarm;
 
   $strongarm = new stdClass();

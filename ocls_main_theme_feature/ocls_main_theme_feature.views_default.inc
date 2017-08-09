@@ -105,5 +105,123 @@ function ocls_main_theme_feature_views_default_views() {
   );
   $export['ocls_main_footer_view_primary'] = $view;
 
+  $view = new view();
+  $view->name = 'partner_institutions';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Partner Institutions';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Partner Institutions';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<a href="/islandora/object/[PID]">
+  <img src="/islandora/object/[PID]/datastream/TN/view"/>
+</a>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+    3 => 'AND',
+    4 => 'AND',
+    6 => 'AND',
+    5 => 'AND',
+    7 => 'AND',
+  );
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID']['id'] = 'PID';
+  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID']['value'] = 'conestoga:root';
+  $handler->display->display_options['filters']['PID']['group'] = 1;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_5']['id'] = 'PID_5';
+  $handler->display->display_options['filters']['PID_5']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_5']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_5']['value'] = 'seneca:root';
+  $handler->display->display_options['filters']['PID_5']['group'] = 2;
+  $handler->display->display_options['filters']['PID_5']['expose']['identifier'] = 'pid_5';
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_3']['id'] = 'PID_3';
+  $handler->display->display_options['filters']['PID_3']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_3']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_3']['value'] = 'fleming:root';
+  $handler->display->display_options['filters']['PID_3']['group'] = 3;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_2']['id'] = 'PID_2';
+  $handler->display->display_options['filters']['PID_2']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_2']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_2']['value'] = 'georgian:root';
+  $handler->display->display_options['filters']['PID_2']['group'] = 4;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_1']['id'] = 'PID_1';
+  $handler->display->display_options['filters']['PID_1']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_1']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_1']['value'] = 'centennial:root';
+  $handler->display->display_options['filters']['PID_1']['group'] = 5;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_4']['id'] = 'PID_4';
+  $handler->display->display_options['filters']['PID_4']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_4']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_4']['value'] = 'loyalist:root';
+  $handler->display->display_options['filters']['PID_4']['group'] = 6;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID_6']['id'] = 'PID_6';
+  $handler->display->display_options['filters']['PID_6']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID_6']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID_6']['value'] = 'islandora:root';
+  $handler->display->display_options['filters']['PID_6']['group'] = 7;
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['partner_institutions'] = array(
+    t('Master'),
+    t('Partner Institutions'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<a href="/islandora/object/[PID]">
+  <img src="/islandora/object/[PID]/datastream/TN/view"/>
+</a>'),
+    t('Block'),
+  );
+  $export['partner_institutions'] = $view;
+
   return $export;
 }

@@ -45,5 +45,38 @@ function ocls_main_theme_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-partner_institutions-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'partner_institutions-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'partner-institutions',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ocls_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'ocls_theme',
+        'weight' => -34,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   return $export;
 }
