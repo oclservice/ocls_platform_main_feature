@@ -1725,6 +1725,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'view the administration theme',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'system',
   );
