@@ -38,7 +38,7 @@ function ocls_fleming_theme_feature_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'14922\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1502132586\',
+            \'timestamp\' => \'1502392186\',
             \'uuid\' => \'c1e8f364-0ed6-4378-a31e-cffc3b489c8b\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',

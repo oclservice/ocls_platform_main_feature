@@ -91,6 +91,18 @@ function ocls_loyalist_theme_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['defaults']['sorts'] = FALSE;
+  $translatables['ocls_loyalist_footer_view_primary'] = array(
+    t('Master'),
+    t('Footer View Primary'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<a title="[title]" href="[field_image_block_link]">[field_image_block]</a>'),
+    t('Block'),
+  );
   $export['ocls_loyalist_footer_view_primary'] = $view;
 
   return $export;

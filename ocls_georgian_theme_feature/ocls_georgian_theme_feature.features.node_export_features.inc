@@ -38,7 +38,7 @@ function ocls_georgian_theme_feature_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'28296\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1502134142\',
+            \'timestamp\' => \'1502392354\',
             \'uuid\' => \'8f00a18c-c0b6-4821-98bb-a2809005d605\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
