@@ -38,7 +38,7 @@ function ocls_seneca_theme_feature_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'9403\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1502194214\',
+            \'timestamp\' => \'1502392664\',
             \'uuid\' => \'4d0d615c-1524-4ded-8ea4-800cd855abd6\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',

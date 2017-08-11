@@ -34,6 +34,13 @@ function ocls_centennial_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_namespace_restriction';
+  $strongarm->value = 'centennial';
+  $export['islandora_solr_namespace_restriction'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
   $strongarm->value = 'Centennial College';
   $export['site_name'] = $strongarm;

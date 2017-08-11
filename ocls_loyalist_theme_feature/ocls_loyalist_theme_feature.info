@@ -14,6 +14,7 @@ features[node_export_features][] = cc4cef65-c5fc-4313-a420-d621a5682d13
 features[variable][] = islandora_namespace_restriction_enforced
 features[variable][] = islandora_pids_allowed
 features[variable][] = islandora_repository_pid
+features[variable][] = islandora_solr_namespace_restriction
 features[variable][] = site_name
 features[variable][] = site_slogan
 features[variable][] = theme_ocls_theme_settings

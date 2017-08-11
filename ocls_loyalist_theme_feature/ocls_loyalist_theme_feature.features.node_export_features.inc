@@ -38,7 +38,7 @@ function ocls_loyalist_theme_feature_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'48625\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1502195661\',
+            \'timestamp\' => \'1502392562\',
             \'uuid\' => \'db217e9c-d538-44f7-80fc-5223c9b841d7\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',

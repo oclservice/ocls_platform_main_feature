@@ -38,7 +38,7 @@ function ocls_conestoga_theme_feature_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'25163\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1502130092\',
+            \'timestamp\' => \'1502391648\',
             \'uuid\' => \'da106610-dcd2-4df8-8e59-efb7a0c059bb\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
