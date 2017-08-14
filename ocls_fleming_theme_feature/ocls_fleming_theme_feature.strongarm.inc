@@ -131,5 +131,22 @@ function ocls_fleming_theme_feature_strongarm() {
   );
   $export['theme_settings'] = $strongarm;
 
+  //fleming
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+   'main' => '#f9f9f9',
+   'header' => '#ffffff',
+   'navigation' => '#284e36',
+   'sidebars' => '#f1f1f1',
+   'footer' => '#284e36',
+   'footer_top' => '#000000',
+   'front_box' => '#284e36',
+   'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
   return $export;
 }
