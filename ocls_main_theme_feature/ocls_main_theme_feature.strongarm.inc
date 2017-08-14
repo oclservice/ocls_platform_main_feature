@@ -84,7 +84,7 @@ function ocls_main_theme_feature_strongarm() {
     'ocls_slideshow_pids' => 'islandora:root',
     'ocls_show_basic_record' => '0',
     'ocls_show_collection_search' => '1',
-    'ocls_background_dsid' => 'TN',
+    'ocls_background_dsid' => 'front',
     'ocls_bio_label' => 'Biography',
     'ocls_meta_des' => 'Description',
     'ocls_collection_items_details' => '0',
