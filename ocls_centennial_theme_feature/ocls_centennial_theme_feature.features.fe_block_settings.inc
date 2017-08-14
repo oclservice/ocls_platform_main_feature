@@ -12,11 +12,11 @@ function ocls_centennial_theme_feature_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['views-footer_view_primary-block_1'] = array(
+  $export['views-017522429d9928eff88e2164b235ff3b'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'footer_view_primary-block_1',
+    'delta' => '017522429d9928eff88e2164b235ff3b',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>',
@@ -29,8 +29,8 @@ function ocls_centennial_theme_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ocls_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer',
+        'status' => 1,
         'theme' => 'ocls_theme',
         'weight' => 0,
       ),

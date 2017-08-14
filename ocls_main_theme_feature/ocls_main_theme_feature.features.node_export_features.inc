@@ -38,7 +38,7 @@ function ocls_main_theme_feature_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'5406\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1502117232\',
+            \'timestamp\' => \'1502717686\',
             \'uuid\' => \'1b17d50a-2b79-4114-9ca7-3c050ee2a0b4\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
