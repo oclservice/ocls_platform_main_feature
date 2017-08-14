@@ -62,8 +62,8 @@ function ocls_main_theme_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ocls_theme' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ocls_theme',
         'weight' => -34,
       ),
