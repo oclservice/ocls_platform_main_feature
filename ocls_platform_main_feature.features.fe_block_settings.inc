@@ -102,7 +102,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => 0,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -234,7 +234,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -28,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -730,7 +730,7 @@ islandora/search',
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -27,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => 'content',

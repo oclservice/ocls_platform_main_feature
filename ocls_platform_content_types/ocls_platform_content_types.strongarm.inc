@@ -125,6 +125,8 @@ function ocls_platform_content_types_strongarm() {
     'article' => 'article',
     'page' => 'page',
     'image_block' => 'image_block',
+    'institution' => 'institution',
+    'islandora_autocomplete_fields' => 0,
   );
   $export['node_export_file_types'] = $strongarm;
 
