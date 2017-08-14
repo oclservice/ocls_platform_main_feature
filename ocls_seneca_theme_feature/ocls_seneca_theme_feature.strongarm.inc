@@ -132,5 +132,22 @@ function ocls_seneca_theme_feature_strongarm() {
   );
   $export['theme_settings'] = $strongarm;
 
+  //seneca
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+   'main' => '#f9f9f9',
+   'header' => '#ffffff',
+   'navigation' => '#DA291C',
+   'sidebars' => '#D9D9D6',
+   'footer' => '#D9D9D6',
+   'footer_top' => '#888B8D',
+   'front_box' => '#54585A',
+   'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
   return $export;
 }

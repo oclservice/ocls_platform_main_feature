@@ -131,5 +131,22 @@ function ocls_centennial_theme_feature_strongarm() {
   );
   $export['theme_settings'] = $strongarm;
 
+  //centennial
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+   'main' => '#f9f9f9',
+   'header' => '#d4df38',
+   'navigation' => '#303030',
+   'sidebars' => '#f1f1f1',
+   'footer' => '#ffffff',
+   'footer_top' => '#000000',
+   'front_box' => '#000000',
+   'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
   return $export;
 }
