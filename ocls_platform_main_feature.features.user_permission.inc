@@ -236,6 +236,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'add fedora datastreams',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -408,6 +409,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['administer islandora ip embargoes'] = array(
     'name' => 'administer islandora ip embargoes',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_ip_embargo',
@@ -489,6 +491,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['administer islandora_xacml_editor'] = array(
     'name' => 'administer islandora_xacml_editor',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_xacml_editor',
@@ -723,6 +726,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['administer xacml inheritance'] = array(
     'name' => 'administer xacml inheritance',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_xacml_editor',
@@ -760,6 +764,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'bypass inactive object state',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_simple_workflow',
@@ -823,6 +828,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['control islandora ip embargoes'] = array(
     'name' => 'control islandora ip embargoes',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_ip_embargo',
@@ -1116,6 +1122,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'edit fedora metadata',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1192,6 +1199,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'export islandora bookmarks',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
     ),
@@ -1275,6 +1283,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'ingest fedora objects',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1311,6 +1320,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['manage deleted objects'] = array(
     'name' => 'manage deleted objects',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1329,6 +1339,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['manage inactive objects'] = array(
     'name' => 'manage inactive objects',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_simple_workflow',
@@ -1338,6 +1349,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['manage islandora ip embargoes'] = array(
     'name' => 'manage islandora ip embargoes',
     'roles' => array(
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_ip_embargo',
@@ -1357,6 +1369,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'manage object properties',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1432,6 +1445,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'regenerate derivatives for an object',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1451,6 +1465,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'replace a datastream with new content, preserving version history',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1470,6 +1485,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'revert to old datastream',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1498,6 +1514,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'search islandora solr',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1519,6 +1536,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'share islandora bookmarks',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_bookmark',
@@ -1602,6 +1620,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'use islandora_bookmark',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
     ),
@@ -1649,6 +1668,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'view fedora repository objects',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1688,6 +1708,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'view old datastream versions',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',

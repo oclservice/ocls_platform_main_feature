@@ -16,6 +16,12 @@ function ocls_platform_main_feature_user_default_roles() {
     'weight' => 2,
   );
 
+  // Exported role: Submissions Reviewer.
+  $roles['Submissions Reviewer'] = array(
+    'name' => 'Submissions Reviewer',
+    'weight' => 4,
+  );
+
   // Exported role: administrator.
   $roles['administrator'] = array(
     'name' => 'administrator',

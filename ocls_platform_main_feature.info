@@ -312,6 +312,7 @@ features[user_permission][] = view revisions
 features[user_permission][] = view technical metadata
 features[user_permission][] = view the administration theme
 features[user_role][] = Content Contributor
+features[user_role][] = Submissions Reviewer
 features[user_role][] = administrator
 features[variable][] = back_to_top_bg_color
 features[variable][] = back_to_top_border_color
