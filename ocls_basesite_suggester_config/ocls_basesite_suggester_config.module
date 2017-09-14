@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OCLS Basesite Suggester Config feature.
+ */
+
+include_once 'ocls_basesite_suggester_config.features.inc';
