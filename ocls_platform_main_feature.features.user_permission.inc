@@ -469,15 +469,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'islandora_solr_metadata',
   );
 
-  // Exported permission: 'administer islandora_solr_suggester'.
-  $permissions['administer islandora_solr_suggester'] = array(
-    'name' => 'administer islandora_solr_suggester',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_solr_suggester',
-  );
-
   // Exported permission: 'administer islandora_xacml_api'.
   $permissions['administer islandora_xacml_api'] = array(
     'name' => 'administer islandora_xacml_api',
