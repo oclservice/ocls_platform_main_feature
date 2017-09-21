@@ -391,23 +391,6 @@ function ocls_platform_solr_metadata_config_islandora_solr_fields_features_defau
     ),
   ),
   22 => array(
-    'solr_field' => 'ocls_namespace_label_s',
-    'field_type' => 'facet_fields',
-    'weight' => 6,
-    'solr_field_settings' => array(
-      'label' => 'Partner',
-      'sort_by' => 'count',
-      'pid_object_label' => NULL,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-        4 => 4,
-        5 => 5,
-      ),
-    ),
-  ),
-  23 => array(
     'solr_field' => 'mods_name_personal_author_mt',
     'field_type' => 'search_fields',
     'weight' => 6,
@@ -420,7 +403,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  24 => array(
+  23 => array(
     'solr_field' => 'mods_genre_mt',
     'field_type' => 'search_fields',
     'weight' => 7,
@@ -433,7 +416,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  25 => array(
+  24 => array(
     'solr_field' => 'mods_language_languageTerm_text_mt',
     'field_type' => 'search_fields',
     'weight' => 8,
@@ -446,7 +429,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  26 => array(
+  25 => array(
     'solr_field' => 'mods_typeOfResource_mt',
     'field_type' => 'search_fields',
     'weight' => 9,
@@ -517,7 +500,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
       ),
       'ocls_mods_creator_ms' => array(
         'solr_field' => 'ocls_mods_creator_ms',
-        'data' => 'a:5:{s:13:"display_label";s:7:"Creator";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";i:0;s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";i:1;}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;i:1;i:2;i:2;i:4;i:4;i:3;i:3;i:5;i:5;}}}',
+        'data' => 'a:5:{s:13:"display_label";s:7:"Creator";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => -13,
         'display_label' => 'Creator',
         'hyperlink' => 0,
@@ -634,7 +617,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
       ),
       'mods_identifier_local_ms' => array(
         'solr_field' => 'mods_identifier_local_ms',
-        'data' => 'a:5:{s:13:"display_label";s:10:"Identifier";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";i:0;s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";i:1;}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;i:1;i:2;i:2;i:4;i:4;i:3;i:3;i:5;i:5;}}}',
+        'data' => 'a:5:{s:13:"display_label";s:10:"Identifier";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => -8,
         'display_label' => 'Identifier',
         'hyperlink' => 0,
@@ -774,7 +757,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
       ),
       'mods_genre_ms' => array(
         'solr_field' => 'mods_genre_ms',
-        'data' => 'a:5:{s:13:"display_label";s:5:"Genre";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";i:0;s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";i:1;}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;i:1;i:2;i:2;i:4;i:4;i:3;i:3;i:5;i:5;}}}',
+        'data' => 'a:5:{s:13:"display_label";s:5:"Genre";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => -2,
         'display_label' => 'Genre',
         'hyperlink' => 0,
@@ -799,7 +782,7 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
       ),
       'mods_physicalDescription_note_ms' => array(
         'solr_field' => 'mods_physicalDescription_note_ms',
-        'data' => 'a:5:{s:13:"display_label";s:20:"Physical Description";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";i:0;s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";i:1;}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;i:1;i:2;i:2;i:4;i:4;i:3;i:3;i:5;i:5;}}}',
+        'data' => 'a:5:{s:13:"display_label";s:20:"Physical Description";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => -1,
         'display_label' => 'Physical Description',
         'hyperlink' => 0,
