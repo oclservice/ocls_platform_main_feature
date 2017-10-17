@@ -13,4 +13,6 @@ features[islandora_solr_metadata_configurations][] = ocls_base_configuration
 features[variable][] = islandora_metadata_display
 features[variable][] = islandora_solr_limit_result_fields
 features[variable][] = islandora_solr_num_of_results
+features[variable][] = islandora_solr_primary_display
+features[variable][] = islandora_solr_primary_display_table
 project path = sites/all/modules/ocls_platform_main_feature
