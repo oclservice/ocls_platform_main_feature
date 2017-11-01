@@ -754,7 +754,6 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['bypass inactive object state'] = array(
     'name' => 'bypass inactive object state',
     'roles' => array(
-      'Content Contributor' => 'Content Contributor',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
