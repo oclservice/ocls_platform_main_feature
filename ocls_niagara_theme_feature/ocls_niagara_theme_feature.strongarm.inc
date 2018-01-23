@@ -58,7 +58,7 @@ function ocls_niagara_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Centennial College';
+  $strongarm->value = 'Niagara College Digital Archive';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -101,8 +101,8 @@ function ocls_niagara_theme_feature_strongarm() {
     ),
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
-    'ocls_theme_search_text' => 'Welcome',
-    'ocls_theme_search_heading' => 'Discover Niagara College Collections',
+    'ocls_theme_search_text' => '',
+    'ocls_theme_search_heading' => 'Niagara College Digital Archive',
     'ocls_theme_collections_meta' => '0',
     'ocls_slideshow_pids' => 'niagara:root',
     'ocls_show_basic_record' => '0',
