@@ -24,6 +24,7 @@ features[field_instance][] = node-page-body
 features[node][] = page
 features[node_export_features][] = 0a369398-cae7-4655-970e-a083ddbf1df0
 features[node_export_features][] = 0e43a73f-bc80-4c58-ac61-5ec1c76dfd5c
+features[node_export_features][] = 1440a960-47c7-4e09-9a3a-d4be4b5ba966
 features[node_export_features][] = 301da6dd-7482-43f8-a12d-8353194b2d24
 features[node_export_features][] = 4d8b6a52-aebb-4386-b2f2-4799f5d940ce
 features[node_export_features][] = 7620f194-7864-4617-abf3-2b2ab1601147
