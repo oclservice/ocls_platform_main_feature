@@ -1666,15 +1666,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'islandora',
   );
 
-  // Exported permission: 'view islandora piwik reports'.
-  $permissions['view islandora piwik reports'] = array(
-    'name' => 'view islandora piwik reports',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'islandora_piwik',
-  );
-
   // Exported permission: 'view marcxml output'.
   $permissions['view marcxml output'] = array(
     'name' => 'view marcxml output',
