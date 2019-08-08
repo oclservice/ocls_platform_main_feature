@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_platform_solr_metadata_config.strongarm.inc
