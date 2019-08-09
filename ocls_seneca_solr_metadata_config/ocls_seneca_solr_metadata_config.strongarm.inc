@@ -2,13 +2,13 @@
 
 /**
  * @file
- * ocls_niagara_solr_metadata_config.strongarm.inc
+ * ocls_senece_solr_metadata_config.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function ocls_niagara_solr_metadata_config_strongarm() {
+function ocls_senece_solr_metadata_config_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
