@@ -2,13 +2,13 @@
 
 /**
  * @file
- * ocls_senece_solr_metadata_config.features.inc
+ * ocls_seneca_solr_metadata_config.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function ocls_senece_solr_metadata_config_ctools_plugin_api($module = NULL, $api = NULL) {
+function ocls_seneca_solr_metadata_config_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -17,7 +17,7 @@ function ocls_senece_solr_metadata_config_ctools_plugin_api($module = NULL, $api
 /**
  * Implements hook_islandora_solr_fields_features_default_fields().
  */
-function ocls_senece_solr_metadata_config_islandora_solr_fields_features_default_fields() {
+function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default_fields() {
   return array(
   0 => array(
     'solr_field' => 'score',
@@ -206,7 +206,7 @@ function ocls_senece_solr_metadata_config_islandora_solr_fields_features_default
 /**
  * Implements hook_islandora_solr_metadata_configurations_default_fields().
  */
-function ocls_senece_solr_metadata_config_islandora_solr_metadata_configurations_default_fields() {
+function ocls_seneca_solr_metadata_config_islandora_solr_metadata_configurations_default_fields() {
  return array(
   'ocls_metadata_display_configuration' => array(
     'fields' => array(
