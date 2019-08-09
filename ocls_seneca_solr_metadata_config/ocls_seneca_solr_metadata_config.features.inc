@@ -61,6 +61,40 @@ function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default
     ),
   ),
   3 => array(
+    'solr_field' => 'mods_note_collection_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 0,
+    'solr_field_settings' => array(
+      'label' => 'Collection',
+      'sort_by' => 'count',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+    ),
+  ),
+  4 => array(
+    'solr_field' => 'mods_note_program_code_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 1,
+    'solr_field_settings' => array(
+      'label' => 'Program',
+      'sort_by' => 'count',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+    ),
+  ),
+  5 => array(
     'solr_field' => 'mods_originInfo_dateIssued_dt',
     'field_type' => 'sort_fields',
     'weight' => 1,
@@ -73,28 +107,7 @@ function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default
       ),
     ),
   ),
-  4 => array(
-    'solr_field' => 'mods_originInfo_dateIssued_dt',
-    'field_type' => 'facet_fields',
-    'weight' => 1,
-    'solr_field_settings' => array(
-      'label' => 'Date',
-      'sort_by' => 'count',
-      'date_facet_format' => 'Y',
-      'range_facet_start' => 'NOW/YEAR-20YEARS',
-      'range_facet_end' => 'NOW',
-      'range_facet_gap' => '+1YEAR',
-      'range_facet_slider_color' => '#edc240',
-      'date_filter_datepicker_range' => '-100:+3',
-      'range_facet_select' => NULL,
-      'range_facet_variable_gap' => NULL,
-      'range_facet_slider_enabled' => NULL,
-      'date_filter_datepicker_enabled' => NULL,
-      'pid_object_label' => NULL,
-      'permissions' => FALSE,
-    ),
-  ),
-  5 => array(
+  6 => array(
     'solr_field' => 'ocls_mods_creators_contributors_ms',
     'field_type' => 'result_fields',
     'weight' => 1,
@@ -113,7 +126,7 @@ function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default
       'link_to_search' => FALSE,
     ),
   ),
-  6 => array(
+  7 => array(
     'solr_field' => 'ocls_mods_creators_contributors_mt',
     'field_type' => 'search_fields',
     'weight' => 1,
@@ -122,7 +135,39 @@ function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default
       'permissions' => FALSE,
     ),
   ),
-  7 => array(
+  8 => array(
+    'solr_field' => 'dc.date',
+    'field_type' => 'search_fields',
+    'weight' => 2,
+    'solr_field_settings' => array(
+      'label' => 'Year',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+    ),
+  ),
+  9 => array(
+    'solr_field' => 'mods_note_course_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 2,
+    'solr_field_settings' => array(
+      'label' => 'Course',
+      'sort_by' => 'count',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+    ),
+  ),
+  10 => array(
     'solr_field' => 'ocls_mods_abstract_ms',
     'field_type' => 'result_fields',
     'weight' => 2,
@@ -141,50 +186,25 @@ function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default
       'link_to_search' => FALSE,
     ),
   ),
-  8 => array(
-    'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_s',
-    'field_type' => 'facet_fields',
-    'weight' => 2,
-    'solr_field_settings' => array(
-      'label' => 'Collection',
-      'sort_by' => 'count',
-      'pid_object_label' => 1,
-      'permissions' => FALSE,
-    ),
-  ),
-  9 => array(
-    'solr_field' => 'RELS_EXT_hasModel_uri_s',
-    'field_type' => 'facet_fields',
-    'weight' => 3,
-    'solr_field_settings' => array(
-      'label' => 'Document Type',
-      'sort_by' => 'count',
-      'pid_object_label' => 1,
-      'permissions' => FALSE,
-    ),
-  ),
-  10 => array(
-    'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_mt',
-    'field_type' => 'search_fields',
-    'weight' => 3,
-    'solr_field_settings' => array(
-      'label' => 'Collection',
-      'permissions' => FALSE,
-    ),
-  ),
   11 => array(
-    'solr_field' => 'RELS_EXT_hasModel_uri_mt',
+    'solr_field' => 'mods_note_program_code_mt',
     'field_type' => 'search_fields',
-    'weight' => 4,
+    'weight' => 3,
     'solr_field_settings' => array(
-      'label' => 'Content Model',
-      'permissions' => FALSE,
+      'label' => 'Program',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
     ),
   ),
   12 => array(
     'solr_field' => 'mods_originInfo_dateIssued_dt',
     'field_type' => 'result_fields',
-    'weight' => 4,
+    'weight' => 3,
     'solr_field_settings' => array(
       'label' => 'Date',
       'snippet' => NULL,
@@ -198,6 +218,57 @@ function ocls_seneca_solr_metadata_config_islandora_solr_fields_features_default
       'replace_pid_with_label' => FALSE,
       'link_to_object' => FALSE,
       'link_to_search' => FALSE,
+    ),
+  ),
+  13 => array(
+    'solr_field' => 'mods_originInfo_encoding_w3cdtf_keydate_yes_dateIssued_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 3,
+    'solr_field_settings' => array(
+      'label' => 'Date',
+      'sort_by' => 'count',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+    ),
+  ),
+  14 => array(
+    'solr_field' => 'mods_genre_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 4,
+    'solr_field_settings' => array(
+      'label' => 'Genre',
+      'sort_by' => 'count',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+    ),
+  ),
+  15 => array(
+    'solr_field' => 'mods_subject_authority_lcsh_topic_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 5,
+    'solr_field_settings' => array(
+      'label' => 'Subject',
+      'sort_by' => 'count',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
     ),
   ),
 );
