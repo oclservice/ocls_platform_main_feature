@@ -1,4 +1,4 @@
-name = OCLS Platform SOLR Metadata Config
+  name = OCLS Loyalist SOLR Metadata Config
 core = 7.x
 package = Features
 version = 7.x-1.0

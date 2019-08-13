@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ocls seneca SOLR Metadata Config feature.
+ */
+
+include_once 'ocls_seneca_solr_metadata_config.features.inc';
