@@ -424,8 +424,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_architecht_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_architecht_ms',
+      'ocls_mods_name_personal_architect_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_architect_ms',
         'data' => 'a:5:{s:13:"display_label";s:9:"Architect";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 8,
         'display_label' => 'Architect',
@@ -624,8 +624,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_coinvestigator_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_coinvestigator_ms',
+      'ocls_mods_name_personal_co_investigator_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_co_investigator_ms',
         'data' => 'a:5:{s:13:"display_label";s:15:"Co-Investigator";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 16,
         'display_label' => 'Co-Investigator',
@@ -724,8 +724,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_copyrightholder_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_copyrightholder_ms',
+      'ocls_mods_name_personal_copyright_holder_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_copyright_holder_ms',
         'data' => 'a:5:{s:13:"display_label";s:16:"Copyright holder";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 20,
         'display_label' => 'Copyright holder',
@@ -974,8 +974,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_fundingsource_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_fundingsource_ms',
+      'ocls_mods_name_personal_funding_source_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_funding_source_ms',
         'data' => 'a:5:{s:13:"display_label";s:14:"Funding Source";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 30,
         'display_label' => 'Funding Source',
@@ -999,8 +999,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_corporate_fundingsource_ms' => array(
-        'solr_field' => 'ocls_mods_name_corporate_fundingsource_ms',
+      'ocls_mods_name_corporate_funding_source_ms' => array(
+        'solr_field' => 'ocls_mods_name_corporate_funding_source_ms',
         'data' => 'a:5:{s:13:"display_label";s:14:"Funding Source";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 31,
         'display_label' => 'Funding Source',
@@ -1024,8 +1024,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_corporate_hostinstitution_ms' => array(
-        'solr_field' => 'ocls_mods_name_corporate_hostinstitution_ms',
+      'ocls_mods_name_corporate_host_institution_ms' => array(
+        'solr_field' => 'ocls_mods_name_corporate_host_institution_ms',
         'data' => 'a:5:{s:13:"display_label";s:16:"Host institution";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 32,
         'display_label' => 'Host institution',
@@ -1074,8 +1074,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_industrypartner_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_industrypartner_ms',
+      'ocls_mods_name_personal_industry_partner_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_industry_partner_ms',
         'data' => 'a:5:{s:13:"display_label";s:16:"Industry Partner";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 34,
         'display_label' => 'Industry Partner',
@@ -1299,8 +1299,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_principleinvestigator_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_principleinvestigator_ms',
+      'ocls_mods_name_personal_principle_investigator_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_principle_investigator_ms',
         'data' => 'a:5:{s:13:"display_label";s:22:"Principle Investigator";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 43,
         'display_label' => 'Principle Investigator',
@@ -1549,8 +1549,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'ocls_mods_name_personal_studentresearcher_ms' => array(
-        'solr_field' => 'ocls_mods_name_personal_studentresearcher_ms',
+      'ocls_mods_name_personal_student_researcher_ms' => array(
+        'solr_field' => 'ocls_mods_name_personal_student_researcher_ms',
         'data' => 'a:5:{s:13:"display_label";s:18:"Student Researcher";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 53,
         'display_label' => 'Student Researcher',
@@ -1949,8 +1949,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'mods_subject_hierarchicalGeographic_extraTerrestrialArea_ms' => array(
-        'solr_field' => 'mods_subject_hierarchicalGeographic_extraTerrestrialArea_ms',
+      'mods_subject_hierarchicalGeographic_extraterrestrialArea_ms' => array(
+        'solr_field' => 'mods_subject_hierarchicalGeographic_extraterrestrialArea_ms',
         'data' => 'a:5:{s:13:"display_label";s:31:"Subject - Extraterrestrial Area";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 69,
         'display_label' => 'Subject - Extraterrestrial Area',
@@ -3149,8 +3149,8 @@ function ocls_platform_solr_metadata_config_islandora_solr_metadata_configuratio
           ),
         ),
       ),
-      'mods_note_creation/production_form_ms' => array(
-        'solr_field' => 'mods_note_creation/production_form_ms',
+      'mods_note_creation/production_credits_ms' => array(
+        'solr_field' => 'mods_note_creation/production_credits_ms',
         'data' => 'a:5:{s:13:"display_label";s:32:"Creation/Production Credits Note";s:9:"hyperlink";i:0;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
         'weight' => 117,
         'display_label' => 'Creation/Production Credits Note',
