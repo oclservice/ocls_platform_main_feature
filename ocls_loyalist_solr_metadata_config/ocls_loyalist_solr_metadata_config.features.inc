@@ -3615,7 +3615,7 @@ function ocls_loyalist_solr_metadata_config_islandora_solr_metadata_configuratio
          'data' => 'a:5:{s:13:"display_label";s:17:"Table of Contents";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
          'weight' => 137,
          'display_label' => 'Table of Contents',
-         'hyperlink' => 1,
+         'hyperlink' => 0,
          'uri_replacement' => '',
          'truncation' => array(
            'truncation_type' => 'separate_value_option',
