@@ -64,7 +64,6 @@ dependencies[] = superfish
 dependencies[] = system
 dependencies[] = system_charts
 dependencies[] = taxonomy
-dependencies[] = taxonomy_csv
 dependencies[] = user
 dependencies[] = uuid
 dependencies[] = views
