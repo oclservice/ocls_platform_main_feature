@@ -1214,15 +1214,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'module' => 'node_export',
   );
 
-  // Exported permission: 'export taxonomy by csv'.
-  $permissions['export taxonomy by csv'] = array(
-    'name' => 'export taxonomy by csv',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'taxonomy_csv',
-  );
-
   // Exported permission: 'flush caches'.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -1257,15 +1248,6 @@ function ocls_platform_main_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'menu_import',
-  );
-
-  // Exported permission: 'import taxonomy by csv'.
-  $permissions['import taxonomy by csv'] = array(
-    'name' => 'import taxonomy by csv',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'taxonomy_csv',
   );
 
   // Exported permission: 'ingest fedora objects'.
