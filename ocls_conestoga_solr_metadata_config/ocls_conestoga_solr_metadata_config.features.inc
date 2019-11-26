@@ -1960,8 +1960,8 @@ function ocls_conestoga_solr_metadata_config_islandora_solr_metadata_configurati
            ),
          ),
        ),
-       'mods_subject_authority_marccountry_geographicCode_ms' => array(
-         'solr_field' => 'mods_subject_authority_marccountry_geographicCode_ms',
+       'mods_subject_geographicCode_ms' => array(
+         'solr_field' => 'mods_subject_geographicCode_ms',
          'data' => 'a:5:{s:13:"display_label";s:25:"Subject - Geographic Code";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:1;s:11:"permissions";a:5:{i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";i:1;i:0;}}}',
          'weight' => 71,
          'display_label' => 'Subject - Geographic Code',
