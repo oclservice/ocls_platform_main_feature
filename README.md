@@ -68,7 +68,7 @@ metadata display for one site; these all use the naming convention
     or the number of results to display), and the names of these variables will
     typically be prefixed by `islandora_solr_` or `islandora_solr_metadata_`.
 * Individualized theme configurations; these use the naming convention
-`ocls_SITE_theme_feature, can be found under the 'Multisite Theme Features'
+`ocls_SITE_theme_feature`, can be found under the 'Multisite Theme Features'
 section, and will contain:
   * **Block Contents** and **Block Settings** to define block placement and
     configuration
@@ -92,12 +92,12 @@ exporting permissions as features** as collisions can occur when re-importing
 them. To state the importance of this plainly: if roles are added, removed, or
 otherwise moved, and permissions are changed, exporting permissions in a feature
 and then importing them later can and will remove permissions from people who
-had them, and give permissions to people who did not . **Changes to permissions
+had them, and give permissions to people who did not. **Changes to permissions
 and roles should be done in communication with discoverygarden**. Enabling
 `discoverygarden_features_safety` will prevent users from being able to make
 changes to permissions, mitigating this issue.
 
 Exporting and re-exporting Solr field and metadata configurations also has
 permissions implications, as they contain permissions to view and work with Solr
-fields. `discoverygarden_features_safety should ensure both of these remain
+fields. `discoverygarden_features_safety` should ensure both of these remain
 intact.
