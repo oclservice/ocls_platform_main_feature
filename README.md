@@ -35,10 +35,33 @@ Current maintainers:
 
 **Features code should not be directly modified**; rather:
 
-* Make your changes on the site itself
-* Notify [discoverygarden](http://support.discoverygarden.ca) so that these
-changes can be reviewed to be exported as features, so that configuration drift
-does not occur on the site.
+* Navigate to `admin/structure/features` on the site from which you wish to
+export a configuration
+* Take a look for **Overridden** or **Needs Review** features - these are ones
+that have (likely) been modified in some way. You can click on each feature to
+view what's in it.
+* On that feature's configuration page, either check off individual parts of the
+configuration and **Revert components** to revert parts of the configuration, or
+click the **RECREATE** tab to re-export the configuration
+* On the **RECREATE** tab, click **Download feature** to grab a copy of the
+configuration as it currently exists on the site. This will give you a module
+(in a `.tar` file) representing that feature.
+* Extract the module from the `.tar` file and use the extracted folder to
+overwrite the folder of the same name in this repository
+  * Doing this should likely follow `git` best practices, i.e., fork this
+    repository, make your changes locally, make a pull request back to the
+    source fork, and have someone review and merge
+* Once the updates are made to this repository, `git pull` the copy on the
+server
+* Either run `drush fr FEATURE_NAME` on the server, where `FEATURE_NAME` is the
+name of the feature you re-exported, or from the admin interface for the site
+you want to update, navigate to `admin/structure/features`, click on the feature
+you want to update, check off all the components, and click **Revert
+components**
+  * Of note with this: the status of features is site-dependent (e.g., a feature
+could be enabled on 5 sites, or only 1). Drush will run against an individual
+site if done from within that site folder, but in general, it's safest to revert
+features from the admin interface for the site you're working on.
 
 ### Features description
 
