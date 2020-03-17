@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_platform_main_feature.features.user_permission.inc
@@ -115,8 +116,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'access comments',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
   );
@@ -236,6 +235,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'add fedora datastreams',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -247,7 +247,9 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'add or remove islandora object lock',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
     ),
     'module' => 'islandora_object_lock',
   );
@@ -754,6 +756,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['bypass inactive object state'] = array(
     'name' => 'bypass inactive object state',
     'roles' => array(
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -838,6 +841,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'create child collection',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_basic_collection',
@@ -979,6 +983,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['delete fedora objects and datastreams'] = array(
     'name' => 'delete fedora objects and datastreams',
     'roles' => array(
+      'Guest' => 'Guest',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora',
@@ -1112,6 +1117,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'edit fedora metadata',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -1255,6 +1261,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'ingest fedora objects',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -1283,6 +1290,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['manage collection policy'] = array(
     'name' => 'manage collection policy',
     'roles' => array(
+      'Guest' => 'Guest',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_basic_collection',
@@ -1331,6 +1339,7 @@ function ocls_platform_main_feature_user_default_permissions() {
   $permissions['manage islandora object lock'] = array(
     'name' => 'manage islandora object lock',
     'roles' => array(
+      'Guest' => 'Guest',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_object_lock',
@@ -1341,6 +1350,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'manage object properties',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -1352,6 +1362,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'migrate collection members',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'administrator' => 'administrator',
     ),
     'module' => 'islandora_basic_collection',
@@ -1407,7 +1418,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'post comments',
     'roles' => array(
       'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
   );
@@ -1417,6 +1427,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'regenerate derivatives for an object',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -1437,6 +1448,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'replace a datastream with new content, preserving version history',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -1457,6 +1469,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'revert to old datastream',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),
@@ -1519,7 +1532,6 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'skip comment approval',
     'roles' => array(
       'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
   );
@@ -1640,6 +1652,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'view fedora repository objects',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
@@ -1671,6 +1684,7 @@ function ocls_platform_main_feature_user_default_permissions() {
     'name' => 'view old datastream versions',
     'roles' => array(
       'Content Contributor' => 'Content Contributor',
+      'Guest' => 'Guest',
       'Submissions Reviewer' => 'Submissions Reviewer',
       'administrator' => 'administrator',
     ),

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_platform_main_feature.strongarm.inc
@@ -77,7 +78,7 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'imagemagick_convert';
-  $strongarm->value = '/usr/bin/convert';
+  $strongarm->value = '/usr/local/bin/convert';
   $export['imagemagick_convert'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -87,9 +88,9 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->value = array(
     'name' => array(
       'none' => 'none',
-      'islandora_jwplayer' => 'islandora_jwplayer',
+      'islandora_videojs' => 'islandora_videojs',
     ),
-    'default' => 'islandora_jwplayer',
+    'default' => 'islandora_videojs',
   );
   $export['islandora_audio_viewers'] = $strongarm;
 
@@ -177,14 +178,14 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_collection_sort';
-  $strongarm->value = 'fgs_label_ss asc';
+  $strongarm->value = '';
   $export['islandora_solr_collection_sort'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_collection_sort_block_override';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['islandora_solr_collection_sort_block_override'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -215,9 +216,9 @@ function ocls_platform_main_feature_strongarm() {
   $strongarm->value = array(
     'name' => array(
       'none' => 'none',
-      'islandora_jwplayer' => 'islandora_jwplayer',
+      'islandora_videojs' => 'islandora_videojs',
     ),
-    'default' => 'islandora_jwplayer',
+    'default' => 'islandora_videojs',
   );
   $export['islandora_video_viewers'] = $strongarm;
 

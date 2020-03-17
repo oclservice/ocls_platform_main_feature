@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_platform_main_feature.features.fe_block_settings.inc
@@ -102,7 +103,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -32,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -234,7 +235,7 @@ function ocls_platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -35,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
@@ -601,8 +602,8 @@ islandora/search',
         'weight' => 0,
       ),
       'seven' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_sidebar',
+        'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
@@ -730,7 +731,7 @@ islandora/search',
         'region' => 'content',
         'status' => 1,
         'theme' => 'ocls_theme',
-        'weight' => -33,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => 'content',
