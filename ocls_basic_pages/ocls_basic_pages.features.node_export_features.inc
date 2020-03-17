@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_basic_pages.features.node_export_features.inc
@@ -17,7 +18,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'comment\' => \'1\',
       \'comment_count\' => \'0\',
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'files\' => array(),
       \'language\' => \'und\',
       \'last_comment_name\' => NULL,
@@ -28,11 +29,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => array(
-        \'source\' => \'node/1\',
-        \'alias\' => \'partner-institutions\',
-        \'language\' => \'und\',
-      ),
+      \'path\' => FALSE,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -103,12 +100,114 @@ function ocls_basic_pages_node_export_features_default() {
       \'vuuid\' => \'7d1a1822-ffa6-4391-887b-396d2c80bf25\',
     ),
   (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p>The Colleges Object Repository (CORe) is a collaborative initiative aimed at creating access to unique digital content by Ontario colleges.</p>\\r\\n\\r\\n<p>Its foundation is a shared, multi-institution repository built, managed, and supported by Ontario Colleges Library Service (OCLS) and its <a href=\\"https://core.ocls.ca/ocls-repositories\\">partner institutions.</a></p>\\r\\n\\r\\n<p>The power of CORe includes:</p>\\r\\n\\r\\n<ul>\\r\\n\\t<li>Ability to search for digital assets across 6 partner institutions using one search box</li>\\r\\n\\t<li>Robust storage and display of digital files and metadata</li>\\r\\n\\t<li>Opportunities to showcase the scholarship and activities of Ontario college faculty, staff, and students</li>\\r\\n\\t<li>Facilitated knowledge-sharing between members</li>\\r\\n</ul>\\r\\n\\r\\n<p>CORe is built on Islandora, an open-source software framework with Canadian roots. Assistance with theming and implementation was provided by DiscoveryGarden and the BC Electronic Library Network (BC-ELN).</p>\\r\\n\\r\\n<p>For more information about CORe, please see the <a href=\\"https://core.ocls.ca/node/5\\">FAQ</a> or get in touch with us at <a href=\\"mailto:rt@ocls.ca\\">rt@ocls.ca</a></p>\\r\\n",
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>The Colleges Object Repository (CORe) is a collaborative initiative aimed at creating access to unique digital content by Ontario colleges.</p>\\n<p>Its foundation is a shared, multi-institution repository built, managed, and supported by Ontario Colleges Library Service (OCLS) and its <a href=\\"https://core.ocls.ca/ocls-repositories\\">partner institutions.</a></p>\\n<p>The power of CORe includes:</p>\\n<ul><li>Ability to search for digital assets across 6 partner institutions using one search box</li>\\n<li>Robust storage and display of digital files and metadata</li>\\n<li>Opportunities to showcase the scholarship and activities of Ontario college faculty, staff, and students</li>\\n<li>Facilitated knowledge-sharing between members</li>\\n</ul><p>CORe is built on Islandora, an open-source software framework with Canadian roots. Assistance with theming and implementation was provided by DiscoveryGarden and the BC Electronic Library Network (BC-ELN).</p>\\n<p>For more information about CORe, please see the <a href=\\"https://core.ocls.ca/node/5\\">FAQ</a> or get in touch with us at <a href=\\"mailto:rt@ocls.ca\\">rt@ocls.ca</a></p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
       \'changed\' => NULL,
       \'cid\' => \'0\',
-      \'comment\' => \'2\',
+      \'comment\' => \'1\',
       \'comment_count\' => \'0\',
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/8\',
+        \'alias\' => \'about-CORe\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'About CORe\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'0b89286a-52c3-4790-ac42-0ff9d217c334\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'38f82f7b-9981-42c5-bf95-b184c9a6d86a\',
+    ),
+  (object) array(
+      \'changed\' => NULL,
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
+      \'created\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -119,7 +218,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'9403\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'75976fae-13fc-4be4-91f2-2388f37dede9\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -159,7 +258,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -240,11 +339,11 @@ function ocls_basic_pages_node_export_features_default() {
     ),
   (object) array(
       \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'2\',
-      \'comment_count\' => \'0\',
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -255,7 +354,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'40131\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1518813423\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'82e12458-86f5-4798-9687-ba7e07060f11\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -295,7 +394,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -376,11 +475,11 @@ function ocls_basic_pages_node_export_features_default() {
     ),
   (object) array(
       \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'2\',
-      \'comment_count\' => \'0\',
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -391,7 +490,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'14922\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'3709d6f8-34ef-41c3-b8a8-8a2e81b2cc17\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -431,7 +530,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -514,10 +613,214 @@ function ocls_basic_pages_node_export_features_default() {
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => "<div>\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, est eu faucibus mattis, felis eros pretium lectus, non maximus lacus neque nec arcu. Fusce at sem non mi eleifend euismod sit amet vitae purus. Cras nec cursus ante. Nunc eget ipsum eleifend, ornare mauris eu, convallis neque. Aliquam sollicitudin lacus sed enim tincidunt, at pellentesque arcu egestas. Donec non nisi dapibus, bibendum libero et, scelerisque nulla. Donec vitae volutpat augue. Duis ut risus cursus, lobortis nulla ut, dictum sapien. Mauris consequat sem eget ante fermentum feugiat. Aliquam ultricies leo vel augue scelerisque, nec dignissim nisl volutpat. Suspendisse consectetur condimentum diam et ullamcorper. Donec rhoncus sit amet ante at placerat. Morbi ac laoreet mauris. Integer bibendum efficitur felis, cursus ornare ligula auctor eget.</p>\\r\\n\\r\\n<p>Nulla eu augue sapien. Quisque risus enim, bibendum ac ipsum et, sagittis dictum enim. Integer ac tellus sapien. Donec sed fermentum nunc. Pellentesque ultricies varius orci et sollicitudin. Donec consectetur dolor a volutpat congue. Nunc at arcu ut diam fringilla hendrerit.</p>\\r\\n\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec vehicula sem, ut lobortis sapien. Cras dictum eleifend placerat. Donec quam erat, feugiat vitae lacus nec, porttitor auctor ligula. Nam erat magna, rhoncus non felis a, imperdiet cursus elit. Donec commodo diam quis erat sagittis condimentum. Nam consectetur enim rutrum egestas ultricies. Morbi a dui faucibus, ullamcorper nisl in, iaculis orci. Donec vehicula scelerisque nulla imperdiet malesuada. Mauris at tortor non lacus blandit ultricies ac vitae urna. Curabitur a metus magna. Aliquam bibendum et ligula vitae congue. Suspendisse aliquam sit amet sem a sagittis. Donec pretium metus sit amet mi maximus vehicula. Ut luctus ultrices massa, ac auctor nisl gravida sed. Etiam eget elit enim.</p>\\r\\n\\r\\n<p>Duis scelerisque nisi nec est malesuada lobortis. Maecenas sem neque, auctor ut efficitur quis, venenatis sit amet quam. Vivamus sed hendrerit tellus, a molestie est. Sed suscipit diam quis odio accumsan commodo rutrum eu leo. In ultricies nisl ipsum, quis pharetra ipsum bibendum ac. Nam sed arcu id diam rutrum pharetra at sed nunc. Duis non neque nulla. In et quam risus. Aenean vestibulum ante eu magna auctor, at consequat massa imperdiet.</p>\\r\\n\\r\\n<p>Suspendisse et sapien ac turpis tristique commodo. Vivamus tempor lobortis purus ut malesuada. Aliquam sed nisl vitae quam malesuada placerat ac maximus ante. Sed iaculis finibus blandit. Curabitur tempus urna felis, nec egestas purus tincidunt quis. Cras venenatis, sem at imperdiet fermentum, velit eros rhoncus purus, vel iaculis nulla ipsum quis tellus. Phasellus pretium sem sit amet fringilla venenatis. Cras luctus augue elit, vel lobortis nulla lacinia ac. Duis vel tempus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id urna nisl. Sed in suscipit ligula.</p>\\r\\n</div>\\r\\n",
+            \'value\' => "<p>Input some text to encourage people to register</p>\\r\\n\\r\\n<p><a href=\\"https://core.ocls.ca/user/register\\">Register</a></p>\\r\\n",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p>Input some text to encourage people to register</p>\\n<p><a href=\\"https://core.ocls.ca/user/register\\">Register</a></p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => \'a:5:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";}\',
+      \'files\' => array(),
+      \'language\' => \'en\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'264\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/30\',
+        \'alias\' => \'denied\',
+        \'language\' => \'en\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Custom Access Denied\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'3e7138f9-49f0-4935-8c37-7b119fd4f390\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'118b84aa-0d65-4bfb-b834-211abf9ca145\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<div>\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget elit semper, hendrerit ligula vehicula, tincidunt orci. Duis lacinia, enim eget posuere aliquam, felis lorem aliquet dui, non blandit nibh justo a quam. Integer volutpat porta velit, in pretium nulla consequat at. Etiam in vulputate ex. Integer elit tortor, gravida ac erat ut, tempus tincidunt ligula. Phasellus augue ligula, dictum tincidunt finibus eu, maximus tempus nibh. Morbi sed risus at erat lobortis lacinia.</p>\\r\\n\\r\\n<p>Donec lobortis faucibus nulla. Cras a lectus risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas euismod, urna in consectetur ultricies, mauris tortor feugiat lorem, et rutrum enim erat eget libero. Quisque dapibus semper lorem, nec egestas dolor venenatis a. Nulla non pulvinar erat, id facilisis libero. Aenean a nisi faucibus, fermentum nisl aliquet, laoreet risus. Quisque nec lectus turpis. Quisque sagittis mauris vel ante dictum aliquet.</p>\\r\\n\\r\\n<p>Ut eget condimentum leo. Phasellus ut nibh suscipit, bibendum ante eu, posuere libero. Donec a varius ante, nec laoreet ex. Nullam odio lectus, vestibulum id ipsum eget, luctus cursus justo. Mauris in placerat quam, eu imperdiet ipsum. Nunc vel sodales est. Aliquam nisl neque, sagittis id tincidunt vitae, efficitur quis ipsum. In feugiat porttitor sem, in feugiat sem convallis a. Quisque feugiat luctus ex, pretium facilisis ipsum sagittis sit amet.</p>\\r\\n\\r\\n<p>Nulla semper gravida mi nec aliquam. Proin consequat vestibulum luctus. Donec eleifend urna vitae enim tincidunt ultrices. Nam ultricies sed mi maximus ultricies. Donec ultrices tempor lacus commodo volutpat. Proin posuere facilisis quam, eget sagittis elit rutrum nec. Vivamus finibus, lectus eu volutpat sagittis, neque lorem mattis lacus, eu finibus nisi nisi eget purus. Integer scelerisque, lorem tristique feugiat pretium, ipsum eros ullamcorper nunc, nec semper justo est eu dolor. Pellentesque egestas sagittis urna eu malesuada. Fusce aliquet, ipsum eleifend semper suscipit, diam ex convallis leo, sit amet fringilla odio leo id lectus. Donec blandit nunc et dignissim dapibus. Curabitur vitae elementum odio. Vivamus posuere tincidunt lacinia. Donec ac enim eu felis imperdiet placerat.</p>\\r\\n\\r\\n<p>Aliquam ac dapibus quam. Phasellus sodales erat at congue tempor. Aenean varius, risus id porttitor ornare, massa tortor efficitur orci, ac eleifend ipsum purus eu erat. Donec in sem ipsum. Curabitur ut nunc sed erat dapibus varius. Aenean ut odio vestibulum, tempus dui a, fermentum ligula. Donec vitae neque at nunc lacinia blandit tempor sit amet mi. Ut a vestibulum neque. Cras ornare vehicula ipsum eu interdum. Morbi vestibulum sed urna vel consequat. In sit amet urna purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis metus sapien, sit amet elementum nunc venenatis vel.</p>\\r\\n</div>\\r\\n",
             \'summary\' => \'\',
             \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, est eu faucibus mattis, felis eros pretium lectus, non maximus lacus neque nec arcu. Fusce at sem non mi eleifend euismod sit amet vitae purus. Cras nec cursus ante. Nunc eget ipsum eleifend, ornare mauris eu, convallis neque. Aliquam sollicitudin lacus sed enim tincidunt, at pellentesque arcu egestas. Donec non nisi dapibus, bibendum libero et, scelerisque nulla. Donec vitae volutpat augue. Duis ut risus cursus, lobortis nulla ut, dictum sapien. Mauris consequat sem eget ante fermentum feugiat. Aliquam ultricies leo vel augue scelerisque, nec dignissim nisl volutpat. Suspendisse consectetur condimentum diam et ullamcorper. Donec rhoncus sit amet ante at placerat. Morbi ac laoreet mauris. Integer bibendum efficitur felis, cursus ornare ligula auctor eget.</p>\\n<p>Nulla eu augue sapien. Quisque risus enim, bibendum ac ipsum et, sagittis dictum enim. Integer ac tellus sapien. Donec sed fermentum nunc. Pellentesque ultricies varius orci et sollicitudin. Donec consectetur dolor a volutpat congue. Nunc at arcu ut diam fringilla hendrerit.</p>\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec vehicula sem, ut lobortis sapien. Cras dictum eleifend placerat. Donec quam erat, feugiat vitae lacus nec, porttitor auctor ligula. Nam erat magna, rhoncus non felis a, imperdiet cursus elit. Donec commodo diam quis erat sagittis condimentum. Nam consectetur enim rutrum egestas ultricies. Morbi a dui faucibus, ullamcorper nisl in, iaculis orci. Donec vehicula scelerisque nulla imperdiet malesuada. Mauris at tortor non lacus blandit ultricies ac vitae urna. Curabitur a metus magna. Aliquam bibendum et ligula vitae congue. Suspendisse aliquam sit amet sem a sagittis. Donec pretium metus sit amet mi maximus vehicula. Ut luctus ultrices massa, ac auctor nisl gravida sed. Etiam eget elit enim.</p>\\n<p>Duis scelerisque nisi nec est malesuada lobortis. Maecenas sem neque, auctor ut efficitur quis, venenatis sit amet quam. Vivamus sed hendrerit tellus, a molestie est. Sed suscipit diam quis odio accumsan commodo rutrum eu leo. In ultricies nisl ipsum, quis pharetra ipsum bibendum ac. Nam sed arcu id diam rutrum pharetra at sed nunc. Duis non neque nulla. In et quam risus. Aenean vestibulum ante eu magna auctor, at consequat massa imperdiet.</p>\\n<p>Suspendisse et sapien ac turpis tristique commodo. Vivamus tempor lobortis purus ut malesuada. Aliquam sed nisl vitae quam malesuada placerat ac maximus ante. Sed iaculis finibus blandit. Curabitur tempus urna felis, nec egestas purus tincidunt quis. Cras venenatis, sem at imperdiet fermentum, velit eros rhoncus purus, vel iaculis nulla ipsum quis tellus. Phasellus pretium sem sit amet fringilla venenatis. Cras luctus augue elit, vel lobortis nulla lacinia ac. Duis vel tempus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id urna nisl. Sed in suscipit ligula.</p>\\n",
+            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget elit semper, hendrerit ligula vehicula, tincidunt orci. Duis lacinia, enim eget posuere aliquam, felis lorem aliquet dui, non blandit nibh justo a quam. Integer volutpat porta velit, in pretium nulla consequat at. Etiam in vulputate ex. Integer elit tortor, gravida ac erat ut, tempus tincidunt ligula. Phasellus augue ligula, dictum tincidunt finibus eu, maximus tempus nibh. Morbi sed risus at erat lobortis lacinia.</p>\\n<p>Donec lobortis faucibus nulla. Cras a lectus risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas euismod, urna in consectetur ultricies, mauris tortor feugiat lorem, et rutrum enim erat eget libero. Quisque dapibus semper lorem, nec egestas dolor venenatis a. Nulla non pulvinar erat, id facilisis libero. Aenean a nisi faucibus, fermentum nisl aliquet, laoreet risus. Quisque nec lectus turpis. Quisque sagittis mauris vel ante dictum aliquet.</p>\\n<p>Ut eget condimentum leo. Phasellus ut nibh suscipit, bibendum ante eu, posuere libero. Donec a varius ante, nec laoreet ex. Nullam odio lectus, vestibulum id ipsum eget, luctus cursus justo. Mauris in placerat quam, eu imperdiet ipsum. Nunc vel sodales est. Aliquam nisl neque, sagittis id tincidunt vitae, efficitur quis ipsum. In feugiat porttitor sem, in feugiat sem convallis a. Quisque feugiat luctus ex, pretium facilisis ipsum sagittis sit amet.</p>\\n<p>Nulla semper gravida mi nec aliquam. Proin consequat vestibulum luctus. Donec eleifend urna vitae enim tincidunt ultrices. Nam ultricies sed mi maximus ultricies. Donec ultrices tempor lacus commodo volutpat. Proin posuere facilisis quam, eget sagittis elit rutrum nec. Vivamus finibus, lectus eu volutpat sagittis, neque lorem mattis lacus, eu finibus nisi nisi eget purus. Integer scelerisque, lorem tristique feugiat pretium, ipsum eros ullamcorper nunc, nec semper justo est eu dolor. Pellentesque egestas sagittis urna eu malesuada. Fusce aliquet, ipsum eleifend semper suscipit, diam ex convallis leo, sit amet fringilla odio leo id lectus. Donec blandit nunc et dignissim dapibus. Curabitur vitae elementum odio. Vivamus posuere tincidunt lacinia. Donec ac enim eu felis imperdiet placerat.</p>\\n<p>Aliquam ac dapibus quam. Phasellus sodales erat at congue tempor. Aenean varius, risus id porttitor ornare, massa tortor efficitur orci, ac eleifend ipsum purus eu erat. Donec in sem ipsum. Curabitur ut nunc sed erat dapibus varius. Aenean ut odio vestibulum, tempus dui a, fermentum ligula. Donec vitae neque at nunc lacinia blandit tempor sit amet mi. Ut a vestibulum neque. Cras ornare vehicula ipsum eu interdum. Morbi vestibulum sed urna vel consequat. In sit amet urna purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis metus sapien, sit amet elementum nunc venenatis vel.</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/9\',
+        \'alias\' => \'partner-institutions\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Partner Institutions\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'44f02515-37d0-4b1a-a424-9da6ba05e3f9\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'18563d3e-46f7-4071-be89-29b9a902924b\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p>Collection and object statistics</p>\\r\\n\\r\\n<ul>\\r\\n\\t<li><a href=\\"/all-collections\\" target=\\"_blank\\">List all collections</a></li>\\r\\n\\t<li><a href=\\"/all-objects\\" target=\\"_blank\\">List all objects</a></li>\\r\\n\\t<li><a href=\\"/objects-by-dsid\\" target=\\"_blank\\">Objects with or without selected datastreams</a></li>\\r\\n\\t<li><a href=\\"/admin/islandora/tools/simple_workflow/list\\" target=\\"_blank\\">List all inactive objects</a></li>\\r\\n</ul>\\r\\n\\r\\n<p>Usage statistics</p>\\r\\n\\r\\n<ul>\\r\\n\\t<li><a href=\\"/admin/reports/islandora_usage_stats_report\\" target=\\"_blank\\">Detailed view&nbsp;statistics</a></li>\\r\\n\\t<li><a href=\\"/download_stats\\" target=\\"_blank\\">Detailed download statistics</a></li>\\r\\n</ul>\\r\\n",
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Collection and object statistics</p>\\n<ul><li><a href=\\"/all-collections\\" target=\\"_blank\\">List all collections</a></li>\\n<li><a href=\\"/all-objects\\" target=\\"_blank\\">List all objects</a></li>\\n<li><a href=\\"/objects-by-dsid\\" target=\\"_blank\\">Objects with or without selected datastreams</a></li>\\n<li><a href=\\"/admin/islandora/tools/simple_workflow/list\\" target=\\"_blank\\">List all inactive objects</a></li>\\n</ul><p>Usage statistics</p>\\n<ul><li><a href=\\"/admin/reports/islandora_usage_stats_report\\" target=\\"_blank\\">Detailed view statistics</a></li>\\n<li><a href=\\"/download_stats\\" target=\\"_blank\\">Detailed download statistics</a></li>\\n</ul>",
             \'safe_summary\' => \'\',
           ),
         ),
@@ -528,6 +831,108 @@ function ocls_basic_pages_node_export_features_default() {
       \'comment_count\' => \'0\',
       \'created\' => NULL,
       \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'en\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'5159\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/31\',
+        \'alias\' => \'collection-stats\',
+        \'language\' => \'en\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Collection Statistics\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'48665676-4ef3-43a4-9b25-396e1ea2acce\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'f45672a1-9f36-4116-81bb-ec69c508ba79\',
+    ),
+  (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<div>\\r\\n<p>For information on how to join CORe as a partner institution, please contact Thomas Guignard at <a href=\\"mailto:tguignard@ocls.ca\\">tguignard@ocls.ca</a></p>\\r\\n\\r\\n<p>For general inquiries and technical support, please contact the OCLS Help Desk at <a href=\\"mailto:rt@ocls.ca\\">rt@ocls.ca</a></p>\\r\\n\\r\\n<p>For questions related to content from specific colleges, please contact your college’s library:</p>\\r\\n\\r\\n<ul>\\r\\n\\t<li><a href=\\"https://centennial.core.ocls.ca/node/2\\">Centennial</a></li>\\r\\n\\t<li><a href=\\"https://conestoga.core.ocls.ca/node/2\\">Conestoga</a></li>\\r\\n\\t<li><a href=\\"https://fleming.core.ocls.ca/node/2\\">Fleming</a></li>\\r\\n\\t<li><a href=\\"https://georgian.core.ocls.ca/node/2\\">Georgian</a></li>\\r\\n\\t<li><a href=\\"https://loyalist.core.ocls.ca/node/2\\">Loyalist</a></li>\\r\\n\\t<li><a href=\\"https://seneca.core.ocls.ca/node/2\\">Seneca</a></li>\\r\\n</ul>\\r\\n</div>\\r\\n",
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>For information on how to join CORe as a partner institution, please contact Thomas Guignard at <a href=\\"mailto:tguignard@ocls.ca\\">tguignard@ocls.ca</a></p>\\n<p>For general inquiries and technical support, please contact the OCLS Help Desk at <a href=\\"mailto:rt@ocls.ca\\">rt@ocls.ca</a></p>\\n<p>For questions related to content from specific colleges, please contact your college’s library:</p>\\n<ul><li><a href=\\"https://centennial.core.ocls.ca/node/2\\">Centennial</a></li>\\n<li><a href=\\"https://conestoga.core.ocls.ca/node/2\\">Conestoga</a></li>\\n<li><a href=\\"https://fleming.core.ocls.ca/node/2\\">Fleming</a></li>\\n<li><a href=\\"https://georgian.core.ocls.ca/node/2\\">Georgian</a></li>\\n<li><a href=\\"https://loyalist.core.ocls.ca/node/2\\">Loyalist</a></li>\\n<li><a href=\\"https://seneca.core.ocls.ca/node/2\\">Seneca</a></li>\\n</ul>",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'files\' => array(),
       \'language\' => \'und\',
       \'last_comment_name\' => NULL,
@@ -553,7 +958,11 @@ function ocls_basic_pages_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => FALSE,
+      \'path\' => array(
+        \'source\' => \'node/6\',
+        \'alias\' => \'contact\',
+        \'language\' => \'und\',
+      ),
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -625,11 +1034,11 @@ function ocls_basic_pages_node_export_features_default() {
     ),
   (object) array(
       \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'2\',
-      \'comment_count\' => \'0\',
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -640,8 +1049,8 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'5406\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
-            \'uuid\' => \'47bead10-867e-4c96-b44b-8c268f4c0bf2\',
+            \'timestamp\' => \'1519655207\',
+            \'uuid\' => \'c2c6b09b-c25c-400e-b3fa-864bae1330b7\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
             \'title\' => \'\',
@@ -680,7 +1089,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -763,10 +1172,10 @@ function ocls_basic_pages_node_export_features_default() {
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => "<div>\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, est eu faucibus mattis, felis eros pretium lectus, non maximus lacus neque nec arcu. Fusce at sem non mi eleifend euismod sit amet vitae purus. Cras nec cursus ante. Nunc eget ipsum eleifend, ornare mauris eu, convallis neque. Aliquam sollicitudin lacus sed enim tincidunt, at pellentesque arcu egestas. Donec non nisi dapibus, bibendum libero et, scelerisque nulla. Donec vitae volutpat augue. Duis ut risus cursus, lobortis nulla ut, dictum sapien. Mauris consequat sem eget ante fermentum feugiat. Aliquam ultricies leo vel augue scelerisque, nec dignissim nisl volutpat. Suspendisse consectetur condimentum diam et ullamcorper. Donec rhoncus sit amet ante at placerat. Morbi ac laoreet mauris. Integer bibendum efficitur felis, cursus ornare ligula auctor eget.</p>\\r\\n\\r\\n<p>Nulla eu augue sapien. Quisque risus enim, bibendum ac ipsum et, sagittis dictum enim. Integer ac tellus sapien. Donec sed fermentum nunc. Pellentesque ultricies varius orci et sollicitudin. Donec consectetur dolor a volutpat congue. Nunc at arcu ut diam fringilla hendrerit.</p>\\r\\n\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec vehicula sem, ut lobortis sapien. Cras dictum eleifend placerat. Donec quam erat, feugiat vitae lacus nec, porttitor auctor ligula. Nam erat magna, rhoncus non felis a, imperdiet cursus elit. Donec commodo diam quis erat sagittis condimentum. Nam consectetur enim rutrum egestas ultricies. Morbi a dui faucibus, ullamcorper nisl in, iaculis orci. Donec vehicula scelerisque nulla imperdiet malesuada. Mauris at tortor non lacus blandit ultricies ac vitae urna. Curabitur a metus magna. Aliquam bibendum et ligula vitae congue. Suspendisse aliquam sit amet sem a sagittis. Donec pretium metus sit amet mi maximus vehicula. Ut luctus ultrices massa, ac auctor nisl gravida sed. Etiam eget elit enim.</p>\\r\\n\\r\\n<p>Duis scelerisque nisi nec est malesuada lobortis. Maecenas sem neque, auctor ut efficitur quis, venenatis sit amet quam. Vivamus sed hendrerit tellus, a molestie est. Sed suscipit diam quis odio accumsan commodo rutrum eu leo. In ultricies nisl ipsum, quis pharetra ipsum bibendum ac. Nam sed arcu id diam rutrum pharetra at sed nunc. Duis non neque nulla. In et quam risus. Aenean vestibulum ante eu magna auctor, at consequat massa imperdiet.</p>\\r\\n\\r\\n<p>Suspendisse et sapien ac turpis tristique commodo. Vivamus tempor lobortis purus ut malesuada. Aliquam sed nisl vitae quam malesuada placerat ac maximus ante. Sed iaculis finibus blandit. Curabitur tempus urna felis, nec egestas purus tincidunt quis. Cras venenatis, sem at imperdiet fermentum, velit eros rhoncus purus, vel iaculis nulla ipsum quis tellus. Phasellus pretium sem sit amet fringilla venenatis. Cras luctus augue elit, vel lobortis nulla lacinia ac. Duis vel tempus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id urna nisl. Sed in suscipit ligula.</p>\\r\\n</div>\\r\\n",
+            \'value\' => "<ol>\\r\\n\\t<li>\\r\\n\\t<h3><strong>What does CORe stand for?</strong></h3>\\r\\n\\r\\n\\t<p>CORe stands for the Colleges Object Repository, a collaborative initiative aimed at creating access to unique digital content by Ontario colleges.</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>What is the purpose of CORe?</strong></h3>\\r\\n\\r\\n\\t<p>The purpose of CORe is to have a shared digital repository system that makes it easy and cost-effective for Ontario college libraries to manage and display unique digital objects that don’t fit in a traditional library catalogue. This sharing model allows for wider discovery of hidden collections and allows members to leverage the cumulative expertise of a province-wide network of colleagues.</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>What types of collaboration do CORe members engage in?</strong></h3>\\r\\n\\r\\n\\t<p>CORe members work together to develop and share knowledge about workflows, best practices, and techniques for working with digital assets. Ontario Colleges Library Service (OCLS) participates in this process by providing hosting, maintenance, training, and technical support to members.</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>What software does CORe use? What is its architecture?</strong></h3>\\r\\n\\r\\n\\t<p>CORe is built using Islandora, an open-source software framework. It is set up using a multi-site architecture which allows participating colleges to share one repository while each maintaining a separate, customizable front-end interface.</p>\\r\\n\\r\\n\\t<p>Visitors can use the search box on CORe’s main site to find content from all participating colleges simultaneously, or they can visit individual colleges’ sites to search for materials specific to one college.</p>\\r\\n\\r\\n\\t<p>Assistance with theming and implementation was provided by DiscoveryGarden and the BC Electronic Library Network (BC-ELN).</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>Is CORe still in development?</strong></h3>\\r\\n\\r\\n\\t<p>CORe continues to be developed and improved as new needs and requirements arise.</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>Which institutions are currently participating in CORe?</strong></h3>\\r\\n\\r\\n\\t<p>A list of institutions that are currently participating in CORe can be found on the <a href=\\"https://core.ocls.ca/ocls-repositories\\">Partner Institutions</a> page.</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>Can my institution join CORe?</strong></h3>\\r\\n\\r\\n\\t<p>For information on joining CORe, please contact Thomas Guignard at tguignard@ocls.ca</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>What can I find in CORe?</strong></h3>\\r\\n\\r\\n\\t<p>CORe is home to a variety of different content types such as photographs, artwork, newsletters, essays, sound recordings, datasets, maps, videos, and more. It is up to each participating college to decide exactly how they will use CORe and what they will put inside. To find out more, contact your college’s library.</p>\\r\\n\\t</li>\\r\\n\\t<li>\\r\\n\\t<h3><strong>How can I submit my content to CORe?</strong></h3>\\r\\n\\r\\n\\t<p>If you want to submit content that is related to a participating college, please contact your college’s library.</p>\\r\\n\\t</li>\\r\\n</ol>\\r\\n",
             \'summary\' => \'\',
             \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, est eu faucibus mattis, felis eros pretium lectus, non maximus lacus neque nec arcu. Fusce at sem non mi eleifend euismod sit amet vitae purus. Cras nec cursus ante. Nunc eget ipsum eleifend, ornare mauris eu, convallis neque. Aliquam sollicitudin lacus sed enim tincidunt, at pellentesque arcu egestas. Donec non nisi dapibus, bibendum libero et, scelerisque nulla. Donec vitae volutpat augue. Duis ut risus cursus, lobortis nulla ut, dictum sapien. Mauris consequat sem eget ante fermentum feugiat. Aliquam ultricies leo vel augue scelerisque, nec dignissim nisl volutpat. Suspendisse consectetur condimentum diam et ullamcorper. Donec rhoncus sit amet ante at placerat. Morbi ac laoreet mauris. Integer bibendum efficitur felis, cursus ornare ligula auctor eget.</p>\\n<p>Nulla eu augue sapien. Quisque risus enim, bibendum ac ipsum et, sagittis dictum enim. Integer ac tellus sapien. Donec sed fermentum nunc. Pellentesque ultricies varius orci et sollicitudin. Donec consectetur dolor a volutpat congue. Nunc at arcu ut diam fringilla hendrerit.</p>\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec vehicula sem, ut lobortis sapien. Cras dictum eleifend placerat. Donec quam erat, feugiat vitae lacus nec, porttitor auctor ligula. Nam erat magna, rhoncus non felis a, imperdiet cursus elit. Donec commodo diam quis erat sagittis condimentum. Nam consectetur enim rutrum egestas ultricies. Morbi a dui faucibus, ullamcorper nisl in, iaculis orci. Donec vehicula scelerisque nulla imperdiet malesuada. Mauris at tortor non lacus blandit ultricies ac vitae urna. Curabitur a metus magna. Aliquam bibendum et ligula vitae congue. Suspendisse aliquam sit amet sem a sagittis. Donec pretium metus sit amet mi maximus vehicula. Ut luctus ultrices massa, ac auctor nisl gravida sed. Etiam eget elit enim.</p>\\n<p>Duis scelerisque nisi nec est malesuada lobortis. Maecenas sem neque, auctor ut efficitur quis, venenatis sit amet quam. Vivamus sed hendrerit tellus, a molestie est. Sed suscipit diam quis odio accumsan commodo rutrum eu leo. In ultricies nisl ipsum, quis pharetra ipsum bibendum ac. Nam sed arcu id diam rutrum pharetra at sed nunc. Duis non neque nulla. In et quam risus. Aenean vestibulum ante eu magna auctor, at consequat massa imperdiet.</p>\\n<p>Suspendisse et sapien ac turpis tristique commodo. Vivamus tempor lobortis purus ut malesuada. Aliquam sed nisl vitae quam malesuada placerat ac maximus ante. Sed iaculis finibus blandit. Curabitur tempus urna felis, nec egestas purus tincidunt quis. Cras venenatis, sem at imperdiet fermentum, velit eros rhoncus purus, vel iaculis nulla ipsum quis tellus. Phasellus pretium sem sit amet fringilla venenatis. Cras luctus augue elit, vel lobortis nulla lacinia ac. Duis vel tempus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id urna nisl. Sed in suscipit ligula.</p>\\n",
+            \'safe_value\' => "<ol><li>\\n\\t<strong>What does CORe stand for?</strong>\\n<p>\\tCORe stands for the Colleges Object Repository, a collaborative initiative aimed at creating access to unique digital content by Ontario colleges.\\n\\t</p></li>\\n<li>\\n\\t<strong>What is the purpose of CORe?</strong>\\n<p>\\tThe purpose of CORe is to have a shared digital repository system that makes it easy and cost-effective for Ontario college libraries to manage and display unique digital objects that don’t fit in a traditional library catalogue. This sharing model allows for wider discovery of hidden collections and allows members to leverage the cumulative expertise of a province-wide network of colleagues.\\n\\t</p></li>\\n<li>\\n\\t<strong>What types of collaboration do CORe members engage in?</strong>\\n<p>\\tCORe members work together to develop and share knowledge about workflows, best practices, and techniques for working with digital assets. Ontario Colleges Library Service (OCLS) participates in this process by providing hosting, maintenance, training, and technical support to members.\\n\\t</p></li>\\n<li>\\n\\t<strong>What software does CORe use? What is its architecture?</strong>\\n<p>\\tCORe is built using Islandora, an open-source software framework. It is set up using a multi-site architecture which allows participating colleges to share one repository while each maintaining a separate, customizable front-end interface.</p>\\n<p>\\tVisitors can use the search box on CORe’s main site to find content from all participating colleges simultaneously, or they can visit individual colleges’ sites to search for materials specific to one college.</p>\\n<p>\\tAssistance with theming and implementation was provided by DiscoveryGarden and the BC Electronic Library Network (BC-ELN).\\n\\t</p></li>\\n<li>\\n\\t<strong>Is CORe still in development?</strong>\\n<p>\\tCORe continues to be developed and improved as new needs and requirements arise.\\n\\t</p></li>\\n<li>\\n\\t<strong>Which institutions are currently participating in CORe?</strong>\\n<p>\\tA list of institutions that are currently participating in CORe can be found on the <a href=\\"https://core.ocls.ca/ocls-repositories\\">Partner Institutions</a> page.\\n\\t</p></li>\\n<li>\\n\\t<strong>Can my institution join CORe?</strong>\\n<p>\\tFor information on joining CORe, please contact Thomas Guignard at <a href=\\"mailto:tguignard@ocls.ca\\">tguignard@ocls.ca</a>\\n\\t</p></li>\\n<li>\\n\\t<strong>What can I find in CORe?</strong>\\n<p>\\tCORe is home to a variety of different content types such as photographs, artwork, newsletters, essays, sound recordings, datasets, maps, videos, and more. It is up to each participating college to decide exactly how they will use CORe and what they will put inside. To find out more, contact your college’s library.\\n\\t</p></li>\\n<li>\\n\\t<strong>How can I submit my content to CORe?</strong>\\n<p>\\tIf you want to submit content that is related to a participating college, please contact your college’s library.\\n\\t</p></li>\\n</ol>",
             \'safe_summary\' => \'\',
           ),
         ),
@@ -776,7 +1185,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'comment\' => \'1\',
       \'comment_count\' => \'0\',
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'files\' => array(),
       \'language\' => \'und\',
       \'last_comment_name\' => NULL,
@@ -802,7 +1211,11 @@ function ocls_basic_pages_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => FALSE,
+      \'path\' => array(
+        \'source\' => \'node/5\',
+        \'alias\' => \'FAQ\',
+        \'language\' => \'und\',
+      ),
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -874,11 +1287,11 @@ function ocls_basic_pages_node_export_features_default() {
     ),
   (object) array(
       \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'2\',
-      \'comment_count\' => \'0\',
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -889,7 +1302,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'25163\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'8610b875-cc69-463c-9720-0377b4c3c627\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -929,7 +1342,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -1009,13 +1422,105 @@ function ocls_basic_pages_node_export_features_default() {
       \'vuuid\' => \'6bcd8b8c-e5af-4304-bb74-ff717dcdb28e\',
     ),
   (object) array(
+      \'body\' => array(),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
+      \'files\' => array(),
+      \'language\' => \'und\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/7\',
+        \'alias\' => \'advanced-search\',
+        \'language\' => \'und\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Advanced Search\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'acfef6c2-4809-4226-9ad6-cc547a3555ed\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'b18c68e9-eeee-4d59-a95c-79ca96835f98\',
+    ),
+  (object) array(
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => "<div>\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, est eu faucibus mattis, felis eros pretium lectus, non maximus lacus neque nec arcu. Fusce at sem non mi eleifend euismod sit amet vitae purus. Cras nec cursus ante. Nunc eget ipsum eleifend, ornare mauris eu, convallis neque. Aliquam sollicitudin lacus sed enim tincidunt, at pellentesque arcu egestas. Donec non nisi dapibus, bibendum libero et, scelerisque nulla. Donec vitae volutpat augue. Duis ut risus cursus, lobortis nulla ut, dictum sapien. Mauris consequat sem eget ante fermentum feugiat. Aliquam ultricies leo vel augue scelerisque, nec dignissim nisl volutpat. Suspendisse consectetur condimentum diam et ullamcorper. Donec rhoncus sit amet ante at placerat. Morbi ac laoreet mauris. Integer bibendum efficitur felis, cursus ornare ligula auctor eget.</p>\\r\\n\\r\\n<p>Nulla eu augue sapien. Quisque risus enim, bibendum ac ipsum et, sagittis dictum enim. Integer ac tellus sapien. Donec sed fermentum nunc. Pellentesque ultricies varius orci et sollicitudin. Donec consectetur dolor a volutpat congue. Nunc at arcu ut diam fringilla hendrerit.</p>\\r\\n\\r\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec vehicula sem, ut lobortis sapien. Cras dictum eleifend placerat. Donec quam erat, feugiat vitae lacus nec, porttitor auctor ligula. Nam erat magna, rhoncus non felis a, imperdiet cursus elit. Donec commodo diam quis erat sagittis condimentum. Nam consectetur enim rutrum egestas ultricies. Morbi a dui faucibus, ullamcorper nisl in, iaculis orci. Donec vehicula scelerisque nulla imperdiet malesuada. Mauris at tortor non lacus blandit ultricies ac vitae urna. Curabitur a metus magna. Aliquam bibendum et ligula vitae congue. Suspendisse aliquam sit amet sem a sagittis. Donec pretium metus sit amet mi maximus vehicula. Ut luctus ultrices massa, ac auctor nisl gravida sed. Etiam eget elit enim.</p>\\r\\n\\r\\n<p>Duis scelerisque nisi nec est malesuada lobortis. Maecenas sem neque, auctor ut efficitur quis, venenatis sit amet quam. Vivamus sed hendrerit tellus, a molestie est. Sed suscipit diam quis odio accumsan commodo rutrum eu leo. In ultricies nisl ipsum, quis pharetra ipsum bibendum ac. Nam sed arcu id diam rutrum pharetra at sed nunc. Duis non neque nulla. In et quam risus. Aenean vestibulum ante eu magna auctor, at consequat massa imperdiet.</p>\\r\\n\\r\\n<p>Suspendisse et sapien ac turpis tristique commodo. Vivamus tempor lobortis purus ut malesuada. Aliquam sed nisl vitae quam malesuada placerat ac maximus ante. Sed iaculis finibus blandit. Curabitur tempus urna felis, nec egestas purus tincidunt quis. Cras venenatis, sem at imperdiet fermentum, velit eros rhoncus purus, vel iaculis nulla ipsum quis tellus. Phasellus pretium sem sit amet fringilla venenatis. Cras luctus augue elit, vel lobortis nulla lacinia ac. Duis vel tempus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id urna nisl. Sed in suscipit ligula.</p>\\r\\n</div>\\r\\n",
+            \'value\' => "<div>\\r\\n<p>The <strong>Colleges Object Repository (CORe) </strong>is a collaborative initiative aimed at creating access to unique digital content by Ontario colleges.</p>\\r\\n\\r\\n<p>Its foundation is a shared, multi-institution repository built, managed, and supported by <a href=\\"https://www.ocls.ca/\\">Ontario Colleges Library Service (OCLS)</a> and its <a href=\\"https://core.ocls.ca/ocls-repositories\\">partner institutions.</a></p>\\r\\n\\r\\n<p>The power of CORe includes:</p>\\r\\n\\r\\n<ul>\\r\\n\\t<li>Ability to search for digital assets across 7&nbsp;partner institutions using one search box</li>\\r\\n\\t<li>Robust storage and display of digital files and metadata</li>\\r\\n\\t<li>Opportunities to showcase the scholarship and activities of Ontario college faculty, staff, and students</li>\\r\\n\\t<li>Facilitated knowledge-sharing between members</li>\\r\\n</ul>\\r\\n\\r\\n<p>CORe is built on Islandora, an open-source software framework with Canadian roots. Assistance with theming and implementation was provided by <a href=\\"http://www.discoverygarden.ca/\\">DiscoveryGarden</a> and the <a href=\\"http://bceln.ca/\\">BC Electronic Library Network (BC-ELN)</a>.</p>\\r\\n\\r\\n<p>For more information about CORe, please see the <a href=\\"https://core.ocls.ca/node/5\\">FAQ</a> or get in touch with us at <a href=\\"mailto:rt@ocls.ca\\">rt@ocls.ca</a></p>\\r\\n</div>\\r\\n",
             \'summary\' => \'\',
             \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, est eu faucibus mattis, felis eros pretium lectus, non maximus lacus neque nec arcu. Fusce at sem non mi eleifend euismod sit amet vitae purus. Cras nec cursus ante. Nunc eget ipsum eleifend, ornare mauris eu, convallis neque. Aliquam sollicitudin lacus sed enim tincidunt, at pellentesque arcu egestas. Donec non nisi dapibus, bibendum libero et, scelerisque nulla. Donec vitae volutpat augue. Duis ut risus cursus, lobortis nulla ut, dictum sapien. Mauris consequat sem eget ante fermentum feugiat. Aliquam ultricies leo vel augue scelerisque, nec dignissim nisl volutpat. Suspendisse consectetur condimentum diam et ullamcorper. Donec rhoncus sit amet ante at placerat. Morbi ac laoreet mauris. Integer bibendum efficitur felis, cursus ornare ligula auctor eget.</p>\\n<p>Nulla eu augue sapien. Quisque risus enim, bibendum ac ipsum et, sagittis dictum enim. Integer ac tellus sapien. Donec sed fermentum nunc. Pellentesque ultricies varius orci et sollicitudin. Donec consectetur dolor a volutpat congue. Nunc at arcu ut diam fringilla hendrerit.</p>\\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec vehicula sem, ut lobortis sapien. Cras dictum eleifend placerat. Donec quam erat, feugiat vitae lacus nec, porttitor auctor ligula. Nam erat magna, rhoncus non felis a, imperdiet cursus elit. Donec commodo diam quis erat sagittis condimentum. Nam consectetur enim rutrum egestas ultricies. Morbi a dui faucibus, ullamcorper nisl in, iaculis orci. Donec vehicula scelerisque nulla imperdiet malesuada. Mauris at tortor non lacus blandit ultricies ac vitae urna. Curabitur a metus magna. Aliquam bibendum et ligula vitae congue. Suspendisse aliquam sit amet sem a sagittis. Donec pretium metus sit amet mi maximus vehicula. Ut luctus ultrices massa, ac auctor nisl gravida sed. Etiam eget elit enim.</p>\\n<p>Duis scelerisque nisi nec est malesuada lobortis. Maecenas sem neque, auctor ut efficitur quis, venenatis sit amet quam. Vivamus sed hendrerit tellus, a molestie est. Sed suscipit diam quis odio accumsan commodo rutrum eu leo. In ultricies nisl ipsum, quis pharetra ipsum bibendum ac. Nam sed arcu id diam rutrum pharetra at sed nunc. Duis non neque nulla. In et quam risus. Aenean vestibulum ante eu magna auctor, at consequat massa imperdiet.</p>\\n<p>Suspendisse et sapien ac turpis tristique commodo. Vivamus tempor lobortis purus ut malesuada. Aliquam sed nisl vitae quam malesuada placerat ac maximus ante. Sed iaculis finibus blandit. Curabitur tempus urna felis, nec egestas purus tincidunt quis. Cras venenatis, sem at imperdiet fermentum, velit eros rhoncus purus, vel iaculis nulla ipsum quis tellus. Phasellus pretium sem sit amet fringilla venenatis. Cras luctus augue elit, vel lobortis nulla lacinia ac. Duis vel tempus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id urna nisl. Sed in suscipit ligula.</p>\\n",
+            \'safe_value\' => "<p>The <strong>Colleges Object Repository (CORe) </strong>is a collaborative initiative aimed at creating access to unique digital content by Ontario colleges.</p>\\n<p>Its foundation is a shared, multi-institution repository built, managed, and supported by <a href=\\"https://www.ocls.ca/\\">Ontario Colleges Library Service (OCLS)</a> and its <a href=\\"https://core.ocls.ca/ocls-repositories\\">partner institutions.</a></p>\\n<p>The power of CORe includes:</p>\\n<ul><li>Ability to search for digital assets across 7 partner institutions using one search box</li>\\n<li>Robust storage and display of digital files and metadata</li>\\n<li>Opportunities to showcase the scholarship and activities of Ontario college faculty, staff, and students</li>\\n<li>Facilitated knowledge-sharing between members</li>\\n</ul><p>CORe is built on Islandora, an open-source software framework with Canadian roots. Assistance with theming and implementation was provided by <a href=\\"http://www.discoverygarden.ca/\\">DiscoveryGarden</a> and the <a href=\\"http://bceln.ca/\\">BC Electronic Library Network (BC-ELN)</a>.</p>\\n<p>For more information about CORe, please see the <a href=\\"https://core.ocls.ca/node/5\\">FAQ</a> or get in touch with us at <a href=\\"mailto:rt@ocls.ca\\">rt@ocls.ca</a></p>\\n",
             \'safe_summary\' => \'\',
           ),
         ),
@@ -1025,7 +1530,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'comment\' => \'1\',
       \'comment_count\' => \'0\',
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'files\' => array(),
       \'language\' => \'und\',
       \'last_comment_name\' => NULL,
@@ -1051,7 +1556,11 @@ function ocls_basic_pages_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => FALSE,
+      \'path\' => array(
+        \'source\' => \'node/4\',
+        \'alias\' => \'about\',
+        \'language\' => \'und\',
+      ),
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -1122,12 +1631,129 @@ function ocls_basic_pages_node_export_features_default() {
       \'vuuid\' => \'9f1d9e52-bc1d-440c-82f5-d58763c6e233\',
     ),
   (object) array(
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<p>Input some introductory text for your external submitters</p>\\r\\n\\r\\n<p><a href=\\"https://core-ocls-ca.eztest.ocls.ca/islandora/object/islandora%3A1027/manage/overview/ingest\\">Submit Objects</a></p>\\r\\n",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p>Input some introductory text for your external submitters</p>\\n<p><a href=\\"https://core-ocls-ca.eztest.ocls.ca/islandora/object/islandora%3A1027/manage/overview/ingest\\">Submit Objects</a></p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
       \'changed\' => NULL,
       \'cid\' => \'0\',
-      \'comment\' => \'2\',
+      \'comment\' => \'1\',
       \'comment_count\' => \'0\',
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:5:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";}\',
+      \'files\' => array(),
+      \'language\' => \'en\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'264\',
+      \'log\' => \'\',
+      \'menu\' => array(
+        \'link_title\' => \'Submit Objects\',
+        \'mlid\' => 0,
+        \'plid\' => \'0\',
+        \'menu_name\' => \'main-menu\',
+        \'weight\' => \'0\',
+        \'options\' => array(),
+        \'module\' => \'menu\',
+        \'expanded\' => \'0\',
+        \'hidden\' => \'1\',
+        \'has_children\' => \'0\',
+        \'customized\' => 0,
+        \'parent_depth_limit\' => 8,
+        \'description\' => \'\',
+        \'enabled\' => 1,
+      ),
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/29\',
+        \'alias\' => \'submit\',
+        \'language\' => \'en\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Submit Objects\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'dfe198d8-fce5-442c-812c-8935fcf2aa82\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'0786f8a1-c6fd-4e8b-92d1-916d307698f9\',
+    ),
+  (object) array(
+      \'changed\' => NULL,
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
+      \'created\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -1138,7 +1764,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'28296\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'be497bd1-1850-4e7f-aed2-f9da0d13af45\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1178,7 +1804,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -1259,11 +1885,11 @@ function ocls_basic_pages_node_export_features_default() {
     ),
   (object) array(
       \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'2\',
-      \'comment_count\' => \'0\',
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -1274,7 +1900,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'48625\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'cbf8005a-2a8e-45a7-8191-6a224f89b13c\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1314,7 +1940,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
@@ -1400,7 +2026,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'comment\' => \'1\',
       \'comment_count\' => \'0\',
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'files\' => array(),
       \'language\' => \'en\',
       \'last_comment_name\' => NULL,
@@ -1412,7 +2038,7 @@ function ocls_basic_pages_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/11\',
+        \'source\' => \'node/16\',
         \'alias\' => \'advanced-search\',
         \'language\' => \'en\',
       ),
@@ -1487,11 +2113,11 @@ function ocls_basic_pages_node_export_features_default() {
     ),
   (object) array(
       \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'2\',
-      \'comment_count\' => \'0\',
+      \'cid\' => 0,
+      \'comment\' => \'0\',
+      \'comment_count\' => 0,
       \'created\' => NULL,
-      \'data\' => NULL,
+      \'data\' => \'a:6:{s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";s:7:"overlay";i:0;}\',
       \'field_logo\' => array(
         \'und\' => array(
           array(
@@ -1502,7 +2128,7 @@ function ocls_basic_pages_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'31516\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1516656438\',
+            \'timestamp\' => \'1519655207\',
             \'uuid\' => \'b3d9f894-7bb1-4fc7-b6e5-c63059ee3b7e\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -1542,7 +2168,7 @@ function ocls_basic_pages_node_export_features_default() {
       ),
       \'files\' => array(),
       \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
+      \'last_comment_name\' => \'\',
       \'last_comment_timestamp\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'log\' => \'\',
