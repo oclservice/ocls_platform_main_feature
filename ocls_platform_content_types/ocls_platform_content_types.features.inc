@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_platform_content_types.features.inc
@@ -38,6 +39,14 @@ function ocls_platform_content_types_node_info() {
       'name' => t('Islandora Autocomplete Fields'),
       'base' => 'node_content',
       'description' => t('Sets up taxonomies for autocomplete textfields in Islandora ingest forms.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'page' => array(
+      'name' => t('Basic page'),
+      'base' => 'node_content',
+      'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
