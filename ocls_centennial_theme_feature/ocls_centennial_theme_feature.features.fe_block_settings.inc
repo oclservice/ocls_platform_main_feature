@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_centennial_theme_feature.features.fe_block_settings.inc
@@ -41,7 +42,7 @@ function ocls_centennial_theme_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
