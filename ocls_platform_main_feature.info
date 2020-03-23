@@ -1,6 +1,6 @@
 name = OCLS Platform Main Feature
 core = 7.x
-package = Features
+package = OCLS Core Site Features
 dependencies[] = admin_menu
 dependencies[] = block
 dependencies[] = block_class
