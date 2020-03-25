@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the OCLS Loyalist Main Feature feature.
+ */
+
+include_once 'ocls_loyalist_main_feature.features.inc';
