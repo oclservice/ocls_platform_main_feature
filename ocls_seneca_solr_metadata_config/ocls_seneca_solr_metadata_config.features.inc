@@ -1073,7 +1073,7 @@ function ocls_seneca_solr_metadata_config_islandora_solr_metadata_configurations
       ),
       'ocls_mods_name_personal_faculty_ms' => array(
         'solr_field' => 'ocls_mods_name_personal_faculty_ms',
-        'data' => 'a:5:{s:13:"display_label";s:7:"Faculty";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
+        'data' => 'a:5:{s:13:"display_label";s:7:"Faculty";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";i:0;s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";i:1;}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;i:1;i:2;i:2;i:4;i:4;i:3;i:3;i:5;i:5;}}}',
         'weight' => 29,
         'display_label' => 'Faculty',
         'hyperlink' => 1,
@@ -2523,7 +2523,7 @@ function ocls_seneca_solr_metadata_config_islandora_solr_metadata_configurations
       ),
       'mods_originInfo_encoding_w3cdtf_keydate_yes_dateIssued_ms' => array(
         'solr_field' => 'mods_originInfo_encoding_w3cdtf_keydate_yes_dateIssued_ms',
-        'data' => 'a:5:{s:13:"display_label";s:4:"Date";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;s:1:"1";i:2;s:1:"2";i:4;s:1:"4";i:3;s:1:"3";i:5;s:1:"5";}}}',
+        'data' => 'a:5:{s:13:"display_label";s:4:"Date";s:9:"hyperlink";i:1;s:15:"uri_replacement";s:0:"";s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";i:0;s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";i:1;}s:11:"permissions";a:2:{s:18:"enable_permissions";i:0;s:11:"permissions";a:5:{i:1;i:1;i:2;i:2;i:4;i:4;i:3;i:3;i:5;i:5;}}}',
         'weight' => 87,
         'display_label' => 'Date',
         'hyperlink' => 1,
