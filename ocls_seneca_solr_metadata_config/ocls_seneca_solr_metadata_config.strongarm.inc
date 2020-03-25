@@ -29,7 +29,7 @@ function ocls_seneca_solr_metadata_config_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_num_of_results';
-  $strongarm->value = '20';
+  $strongarm->value = '500';
   $export['islandora_solr_num_of_results'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -45,17 +45,17 @@ function ocls_seneca_solr_metadata_config_strongarm() {
   $strongarm->name = 'islandora_solr_primary_display_table';
   $strongarm->value = array(
     'weight' => array(
-      'bookmark' => '0',
-      'default' => '0',
-      'grid' => '0',
-      'table' => '0',
-      'xquery' => '0',
+      'default' => '-10',
+      'grid' => '-9',
+      'bookmark' => '-8',
+      'table' => '-7',
+      'xquery' => '-6',
     ),
     'default' => 'default',
     'enabled' => array(
       'grid' => 'grid',
-      'bookmark' => 0,
       'default' => 'default',
+      'bookmark' => 0,
       'table' => 0,
       'xquery' => 0,
     ),

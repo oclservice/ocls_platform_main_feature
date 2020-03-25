@@ -1,6 +1,6 @@
 name = OCLS Seneca SOLR Metadata Config
 core = 7.x
-package = Features
+package = OCLS Seneca Site Features
 version = 7.x-1.0
 dependencies[] = ctools
 dependencies[] = islandora_solr
