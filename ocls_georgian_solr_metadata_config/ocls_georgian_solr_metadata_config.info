@@ -1,6 +1,6 @@
-  name = OCLS Georgian SOLR Metadata Config
+name = OCLS Georgian SOLR Metadata Config
 core = 7.x
-package = Features
+package = OCLS Georgian Site Features
 version = 7.x-1.0
 dependencies[] = ctools
 dependencies[] = islandora_solr
