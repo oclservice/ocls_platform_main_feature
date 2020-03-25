@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_seneca_theme_feature.features.fe_block_settings.inc

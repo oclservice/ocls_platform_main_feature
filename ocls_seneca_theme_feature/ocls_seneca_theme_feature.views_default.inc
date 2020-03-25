@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_seneca_theme_feature.views_default.inc
@@ -82,7 +83,7 @@ function ocls_seneca_theme_feature_views_default_views() {
     2 => 'AND',
     3 => 'AND',
   );
-  /* Filter criterion: Content: Node UUID */
+  /* Filter criterion: Content: Content UUID */
   $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
