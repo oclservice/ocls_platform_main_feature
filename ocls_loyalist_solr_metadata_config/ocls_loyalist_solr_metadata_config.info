@@ -1,6 +1,6 @@
-  name = OCLS Loyalist SOLR Metadata Config
+name = OCLS Loyalist SOLR Metadata Config
 core = 7.x
-package = Features
+package = OCLS Loyalist Site Features
 version = 7.x-1.0
 dependencies[] = ctools
 dependencies[] = islandora_solr
