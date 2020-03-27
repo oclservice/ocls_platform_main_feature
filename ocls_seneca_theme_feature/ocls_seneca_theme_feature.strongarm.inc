@@ -70,7 +70,7 @@ function ocls_seneca_theme_feature_strongarm() {
     'logo_path' => 'sites/all/themes/ocls_theme/logos/seneca-libraries-logo.png',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => 'public://seneca_favicon.ico',
+    'favicon_path' => 'sites/all/themes/ocls_theme/favicons/seneca_favicon.ico',
     'favicon_upload' => '',
     'zen_breadcrumb' => 'yes',
     'zen_breadcrumb_separator' => ' › ',
