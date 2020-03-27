@@ -74,7 +74,7 @@ section, and will contain:
   * Some **Menu Links** and **Menus** to be placed around the site.
   * Any **Strongarm** variables the theme requires.
   * Some **Views** defined by the site.
-* Individualized miscellaneous configurations; these use the naming convention 'ocls_SITE_main_feature', can be found under the 'OCLS <site> Site Features' section, and contain a variety of configurations. Some elements in these features could make more sense as part of the theme features, but they got bundled in with the main feature initially, and just haven't had a reason to be separated out; probably in an effort to keep the theme features relatively low maintenance and simple. Grouping configuration in a feature is like sorting file storage: there are various approaches, with very few hard limitations, so it can be as granular as it needs to be.
+* Individualized miscellaneous configurations; these use the naming convention `ocls_SITE_main_feature`, can be found under the 'OCLS <site> Site Features' section, and contain a variety of configurations. Some elements in these features could make more sense as part of the theme features, but they got bundled in with the main feature initially, and just haven't had a reason to be separated out; probably in an effort to keep the theme features relatively low maintenance and simple. Grouping configuration in a feature is like sorting file storage: there are various approaches, with very few hard limitations, so it can be as granular as it needs to be.
 
 There is also a basic Solr configuration and basic theme configuration for use
 in the case where a site does not have or need a specific configuration.
