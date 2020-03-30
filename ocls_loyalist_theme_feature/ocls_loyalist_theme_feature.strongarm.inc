@@ -14,6 +14,22 @@ function ocls_loyalist_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'main' => '#f9f9f9',
+    'header' => '#ffffff',
+    'navigation' => '#002649',
+    'sidebars' => '#f1f1f1',
+    'footer' => '#002649',
+    'footer_top' => '#CE1126',
+    'front_box' => '#002649',
+    'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_namespace_restriction_enforced';
   $strongarm->value = 1;
   $export['islandora_namespace_restriction_enforced'] = $strongarm;
@@ -86,7 +102,8 @@ function ocls_loyalist_theme_feature_strongarm() {
     ),
     'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
-    'ocls_custom_logo_url_text' => 'https://www.loyalistlibrary.com/home',
+    'ocls_custom_logo_url' => '',
+    'ocls_custom_no_search_results_msg' => 'Sorry, but your search returned no results.',
     'ocls_theme_search_text' => '',
     'ocls_theme_search_heading' => 'Discover the Loyalist Library Digital Repository
 ',

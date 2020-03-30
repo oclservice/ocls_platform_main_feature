@@ -14,6 +14,22 @@ function ocls_georgian_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'main' => '#f9f9f9',
+    'header' => '#ffffff',
+    'navigation' => '#333f48',
+    'sidebars' => '#f1f1f1',
+    'footer' => '#004b87',
+    'footer_top' => '#333f48',
+    'front_box' => '#333f48',
+    'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_namespace_restriction_enforced';
   $strongarm->value = 1;
   $export['islandora_namespace_restriction_enforced'] = $strongarm;

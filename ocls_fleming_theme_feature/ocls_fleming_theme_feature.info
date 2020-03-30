@@ -26,6 +26,7 @@ features[node_export_features][] = e9b2e6b8-1856-446d-b2bf-8025d233573f
 features[node_export_features][] = ee193a04-aa88-4b5f-bbc8-6198d5b23202
 features[node_export_features][] = ee948a90-7044-4a34-a733-433714457be6
 features[node_export_features][] = f8e3b8c4-659c-47a4-b81c-e19bf8f73618
+features[variable][] = designkit_color
 features[variable][] = islandora_namespace_restriction_enforced
 features[variable][] = islandora_pids_allowed
 features[variable][] = islandora_repository_pid
