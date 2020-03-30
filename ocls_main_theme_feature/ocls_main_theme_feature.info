@@ -1,6 +1,7 @@
 name = OCLS Main Theme Feature
 core = 7.x
 package = OCLS Core Site Features
+dependencies[] = designkit
 dependencies[] = features
 dependencies[] = node_export_features
 dependencies[] = node_export_features
