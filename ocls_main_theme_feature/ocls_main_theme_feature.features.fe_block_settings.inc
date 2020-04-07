@@ -46,6 +46,39 @@ function ocls_main_theme_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-footer_view_primary-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'footer_view_primary-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ocls_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'ocls_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['views-partner_institutions-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -53,7 +86,7 @@ function ocls_main_theme_feature_default_fe_block_settings() {
     'delta' => 'partner_institutions-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'node/3',
+    'pages' => 'uuid/node/0a369398-cae7-4655-970e-a083ddbf1df0',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
