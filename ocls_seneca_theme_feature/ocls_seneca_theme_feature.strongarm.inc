@@ -14,6 +14,22 @@ function ocls_seneca_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'main' => '#f9f9f9',
+    'header' => '#ffffff',
+    'navigation' => '#DA291C',
+    'sidebars' => '#D9D9D6',
+    'footer' => '#D9D9D6',
+    'footer_top' => '#888B8D',
+    'front_box' => '#54585A',
+    'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_namespace_restriction_enforced';
   $strongarm->value = 1;
   $export['islandora_namespace_restriction_enforced'] = $strongarm;
@@ -70,7 +86,7 @@ function ocls_seneca_theme_feature_strongarm() {
     'logo_path' => 'sites/all/themes/ocls_theme/logos/seneca-libraries-logo.png',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => 'public://seneca_favicon.ico',
+    'favicon_path' => 'sites/all/themes/ocls_theme/favicons/seneca_favicon.ico',
     'favicon_upload' => '',
     'zen_breadcrumb' => 'yes',
     'zen_breadcrumb_separator' => ' › ',

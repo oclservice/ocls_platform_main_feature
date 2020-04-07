@@ -43,39 +43,38 @@ does not occur on the site.
 ### Features description
 
 Feature sets contained in this repository can be found by navigating to
-`admin/structure/features`; they are split up into three major categories:
+`admin/structure/features`; they are split up into four major categories:
 
 * Generalized configurations suitable for all sites, including:
   * `ocls_basesite_suggester_config`, which contains the configuration for the
-    Islandora Solr Suggester module, which is identical on all sites
-  * `ocls_basic_pages`, which contains **Node export** components shared by all
-    sites
-  * `ocls_main_theme_feature`, which contains components that are shared by each
-    site theme (so that they are not duplicated multiple times in each theme
-    feature)
+    Islandora Solr Suggester module, which is identical on all sites.
   * `ocls_theme_modifications`, which contains views overrides shared across all
-    sites
+    sites.
+  * `ocls_platform_content_types`, which contains configurations for content types
+     and content fields.
 * Individualized Solr configurations containing search configuration and
 metadata display for one site; these all use the naming convention
-`ocls_SITE_solr_metadata_config`, and include:
+`ocls_SITE_solr_metadata_config`, can be found under the 'OCLS <site> Site
+ Features' section, and include:
   * The full **Islandora Solr Fields Configuration** component defining the
     field display, sort fields, facets, and advanced search fields used by
-    Islandora Solr
+    Islandora Solr.
   * The **Islandora Solr Metadata Configurations** component created for that
-    site, which defines the fields that display on object view pages
+    site, which defines the fields that display on object view pages.
   * Any **Strongarm** variables Solr requires to function; these are typically
     variables defined by the Islandora Solr module (such as the Solr facet limit
     or the number of results to display), and the names of these variables will
     typically be prefixed by `islandora_solr_` or `islandora_solr_metadata_`.
-* Individualized theme configurations; these use the naming convention
-`ocls_SITE_theme_feature`, can be found under the 'Multisite Theme Features'
+* Individualized theme configurations; these use the naming convention.
+`ocls_SITE_theme_feature`, can be found under the 'OCLS <site> Site Features'
 section, and will contain:
   * **Block Contents** and **Block Settings** to define block placement and
-    configuration
-  * **Node Export** to support various display pieces specific to that site
-  * **Menu Links** and **Menus** to be placed around the site
-  * Any **Strongarm** variables the theme requires
-  * Any **Views** defined by the site
+    configuration.
+  * **Node Export** to support various display pieces specific to that site.
+  * Some **Menu Links** and **Menus** to be placed around the site.
+  * Any **Strongarm** variables the theme requires.
+  * Some **Views** defined by the site.
+* Individualized miscellaneous configurations; these use the naming convention `ocls_SITE_main_feature`, can be found under the 'OCLS <site> Site Features' section, and contain a variety of configurations. Some elements in these features could make more sense as part of the theme features, but they got bundled in with the main feature initially, and just haven't had a reason to be separated out; probably in an effort to keep the theme features relatively low maintenance and simple. Grouping configuration in a feature is like sorting file storage: there are various approaches, with very few hard limitations, so it can be as granular as it needs to be.
 
 There is also a basic Solr configuration and basic theme configuration for use
 in the case where a site does not have or need a specific configuration.
