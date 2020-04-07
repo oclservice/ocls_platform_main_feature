@@ -319,7 +319,6 @@ features[variable][] = back_to_top_hover_color
 features[variable][] = back_to_top_prevent_in_admin
 features[variable][] = back_to_top_prevent_on_mobile
 features[variable][] = back_to_top_text_color
-features[variable][] = imagemagick_convert
 features[variable][] = islandora_audio_viewers
 features[variable][] = islandora_basic_collection_default_view
 features[variable][] = islandora_basic_collection_display_backend
