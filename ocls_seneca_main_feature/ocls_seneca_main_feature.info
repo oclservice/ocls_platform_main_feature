@@ -328,6 +328,7 @@ features[variable][] = islandora_book_viewers
 features[variable][] = islandora_compound_object_compound_children
 features[variable][] = islandora_large_image_viewers
 features[variable][] = islandora_newspaper_page_viewers
+features[variable][] = islandora_pdf_viewers
 features[variable][] = islandora_solr_collection_sort
 features[variable][] = islandora_solr_collection_sort_block_override
 features[variable][] = islandora_solr_metadata_dedup_values

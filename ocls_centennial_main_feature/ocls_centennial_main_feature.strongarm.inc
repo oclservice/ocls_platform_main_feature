@@ -163,6 +163,19 @@ function ocls_centennial_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_pdf_viewers';
+  $strongarm->value = array(
+    'name' => array(
+      'none' => 'none',
+      'islandora_pdfjs' => 'islandora_pdfjs',
+    ),
+    'default' => 'islandora_pdfjs',
+  );
+  $export['islandora_pdf_viewers'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_metadata_dedup_values';
   $strongarm->value = 0;
   $export['islandora_solr_metadata_dedup_values'] = $strongarm;
