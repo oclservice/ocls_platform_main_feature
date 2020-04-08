@@ -77,13 +77,6 @@ function ocls_centennial_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'imagemagick_convert';
-  $strongarm->value = '/usr/local/bin/convert';
-  $export['imagemagick_convert'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_audio_viewers';
   $strongarm->value = array(
     'name' => array(
