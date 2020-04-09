@@ -909,5 +909,38 @@ islandora/search',
     'visibility' => 0,
   );
 
+  $export['views-ocls_repositories-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'ocls_repositories-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ocls_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ocls_theme',
+        'weight' => 11,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   return $export;
 }

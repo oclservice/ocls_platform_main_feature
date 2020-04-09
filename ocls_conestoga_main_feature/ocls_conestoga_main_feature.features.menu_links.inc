@@ -148,6 +148,26 @@ function ocls_conestoga_main_feature_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_partner-institutions:ocls-repositories.
+  $menu_links['main-menu_partner-institutions:ocls-repositories'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'ocls-repositories',
+    'router_path' => 'ocls-repositories',
+    'link_title' => 'Partner Institutions',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_partner-institutions:ocls-repositories',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -386,6 +406,7 @@ function ocls_conestoga_main_feature_menu_default_menu_links() {
   t('Login');
   t('Logout');
   t('Make contact');
+  t('Partner Institutions');
   t('Policies');
   t('Researchers');
 
