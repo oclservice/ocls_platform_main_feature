@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_main_theme_feature.strongarm.inc
@@ -13,6 +14,22 @@ function ocls_main_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'main' => '#f9f9f9',
+    'header' => '#ffffff',
+    'navigation' => '#266cac',
+    'sidebars' => '#f1f1f1',
+    'footer' => '#ffffff',
+    'footer_top' => '#000000',
+    'front_box' => '#000000',
+    'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_namespace_restriction_enforced';
   $strongarm->value = 1;
   $export['islandora_namespace_restriction_enforced'] = $strongarm;
@@ -21,7 +38,7 @@ function ocls_main_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_pids_allowed';
-  $strongarm->value = 'centennial: seneca: conestoga: fleming: loyalist: georgian:';
+  $strongarm->value = 'centennial: seneca: conestoga: fleming: loyalist: georgian: ir: loyalists: niagara:';
   $export['islandora_pids_allowed'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -35,14 +52,14 @@ function ocls_main_theme_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'OCLS';
+  $strongarm->value = 'CORe';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = 'Colleges Object Repository';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -61,8 +78,8 @@ function ocls_main_theme_feature_strongarm() {
     'default_logo' => 1,
     'logo_path' => '',
     'logo_upload' => '',
-    'default_favicon' => 1,
-    'favicon_path' => '',
+    'default_favicon' => 0,
+    'favicon_path' => 'sites/all/themes/ocls_theme/favicons/ocls_core_favicon.ico',
     'favicon_upload' => '',
     'zen_breadcrumb' => 'yes',
     'zen_breadcrumb_separator' => ' › ',
@@ -76,10 +93,12 @@ function ocls_main_theme_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 1,
+    'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
+    'ocls_custom_logo_url' => '',
+    'ocls_custom_no_search_results_msg' => 'Sorry, but your search returned no results.',
     'ocls_theme_search_text' => '',
-    'ocls_theme_search_heading' => 'Discover OCLS Collections',
+    'ocls_theme_search_heading' => 'Discover Ontario Colleges\' Digital Collections',
     'ocls_theme_collections_meta' => '0',
     'ocls_slideshow_pids' => 'islandora:root',
     'ocls_show_basic_record' => '0',
@@ -87,7 +106,6 @@ function ocls_main_theme_feature_strongarm() {
     'ocls_background_dsid' => 'front',
     'ocls_bio_label' => 'Biography',
     'ocls_meta_des' => 'Description',
-    'ocls_collection_items_details' => '0',
     'designkit_color' => array(
       'main' => '#f9f9f9',
       'header' => '#ffffff',
@@ -98,6 +116,7 @@ function ocls_main_theme_feature_strongarm() {
       'front_box' => '#000000',
       'menu_color' => '#000000',
     ),
+    'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_ocls_theme_settings'] = $strongarm;
 
@@ -123,23 +142,6 @@ function ocls_main_theme_feature_strongarm() {
     'favicon_upload' => '',
   );
   $export['theme_settings'] = $strongarm;
-
-  // Base
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'designkit_color';
-  $strongarm->value = array(
-   'main' => '#f9f9f9',
-   'header' => '#ffffff',
-   'navigation' => '#266cac',
-   'sidebars' => '#f1f1f1',
-   'footer' => '#ffffff',
-   'footer_top' => '#000000',
-   'front_box' => '#000000',
-   'menu_color' => '#000000',
-  );
-  $export['designkit_color'] = $strongarm;
 
   return $export;
 }

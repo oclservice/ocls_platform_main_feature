@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the OCLS Niagara Main Feature feature.
+ */
+
+include_once 'ocls_niagara_main_feature.features.inc';

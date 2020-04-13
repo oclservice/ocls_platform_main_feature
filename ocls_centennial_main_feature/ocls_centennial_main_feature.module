@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ocls Platform Main Feature feature.
+ */
+
+include_once 'ocls_centennial_main_feature.features.inc';

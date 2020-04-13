@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_fleming_theme_feature.strongarm.inc
@@ -9,6 +10,22 @@
  */
 function ocls_fleming_theme_feature_strongarm() {
   $export = array();
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'main' => '#f9f9f9',
+    'header' => '#ffffff',
+    'navigation' => '#284e36',
+    'sidebars' => '#f1f1f1',
+    'footer' => '#284e36',
+    'footer_top' => '#000000',
+    'front_box' => '#284e36',
+    'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -83,10 +100,12 @@ function ocls_fleming_theme_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 1,
+    'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
-    'ocls_theme_search_text' => 'Welcome to Fleming College! We are located in the heart of Central Ontario, with campus locations in Peterborough, Lindsay, Haliburton and Cobourg. Whether you are touring the campus as a prospective student or visiting for one of our many services - including a Student Massage Clinic, a spa, and a student-run restaurant - we are happy to have you at our college.',
-    'ocls_theme_search_heading' => 'Discover Fleming College Collections',
+    'ocls_custom_logo_url' => '',
+    'ocls_custom_no_search_results_msg' => 'Sorry, but your search returned no results.',
+    'ocls_theme_search_text' => 'Sharing the history of Fleming College and the research of our staff and students with the world.',
+    'ocls_theme_search_heading' => 'Discover Fleming College Digital Repository Collections',
     'ocls_theme_collections_meta' => '0',
     'ocls_slideshow_pids' => 'fleming:root',
     'ocls_show_basic_record' => '0',
@@ -94,7 +113,6 @@ function ocls_fleming_theme_feature_strongarm() {
     'ocls_background_dsid' => 'front',
     'ocls_bio_label' => 'Biography',
     'ocls_meta_des' => 'Description',
-    'ocls_collection_items_details' => '0',
     'designkit_color' => array(
       'main' => '#f9f9f9',
       'header' => '#ffffff',
@@ -130,23 +148,6 @@ function ocls_fleming_theme_feature_strongarm() {
     'favicon_upload' => '',
   );
   $export['theme_settings'] = $strongarm;
-
-  //fleming
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'designkit_color';
-  $strongarm->value = array(
-   'main' => '#f9f9f9',
-   'header' => '#ffffff',
-   'navigation' => '#284e36',
-   'sidebars' => '#f1f1f1',
-   'footer' => '#284e36',
-   'footer_top' => '#000000',
-   'front_box' => '#284e36',
-   'menu_color' => '#000000',
-  );
-  $export['designkit_color'] = $strongarm;
 
   return $export;
 }

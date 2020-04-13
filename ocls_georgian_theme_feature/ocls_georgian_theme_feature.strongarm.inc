@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_georgian_theme_feature.strongarm.inc
@@ -9,6 +10,22 @@
  */
 function ocls_georgian_theme_feature_strongarm() {
   $export = array();
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'main' => '#f9f9f9',
+    'header' => '#ffffff',
+    'navigation' => '#333f48',
+    'sidebars' => '#f1f1f1',
+    'footer' => '#004b87',
+    'footer_top' => '#333f48',
+    'front_box' => '#333f48',
+    'menu_color' => '#000000',
+  );
+  $export['designkit_color'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -83,9 +100,14 @@ function ocls_georgian_theme_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 1,
+    'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
-    'ocls_theme_search_text' => 'Georgian College is a College of Applied Arts and Technology in Ontario, Canada. It has 11,000 full-time domestic and 1,500 international students from over 60 countries across seven campuses, the largest being in Barrie.',
+    'ocls_custom_logo_url' => 'https://library.georgiancollege.ca/main',
+    'ocls_custom_no_search_results_msg' => 'Sorry, but your search returned no results.  If you need assistance searching this repository or have other research needs please contact <a href="https://library.georgiancollege.ca/doingresearch/research-help">https://library.georgiancollege.ca/doingresearch/research-help</a>
+',
+    'ocls_theme_search_text' => 'Welcome to Georgian College\'s Digital Repository.  The repository is currently composed of the following collections:
+Student Projects:  Final research reports and projects from a variety of academic programs that include Technology programs and the Research Analyst program.
+College Archives: A collection of images, videos and documents that record the history and events of Georgian College over its 50 year history.',
     'ocls_theme_search_heading' => 'Discover Georgian College Collections',
     'ocls_theme_collections_meta' => '0',
     'ocls_slideshow_pids' => 'georgian:root',
@@ -94,7 +116,6 @@ function ocls_georgian_theme_feature_strongarm() {
     'ocls_background_dsid' => 'front',
     'ocls_bio_label' => 'Biography',
     'ocls_meta_des' => 'Description',
-    'ocls_collection_items_details' => '0',
     'designkit_color' => array(
       'main' => '#f9f9f9',
       'header' => '#ffffff',
@@ -130,23 +151,6 @@ function ocls_georgian_theme_feature_strongarm() {
     'favicon_upload' => '',
   );
   $export['theme_settings'] = $strongarm;
-
-  // Georgian
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'designkit_color';
-  $strongarm->value = array(
-   'main' => '#f9f9f9',
-   'header' => '#ffffff',
-   'navigation' => '#333f48',
-   'sidebars' => '#f1f1f1',
-   'footer' => '#004b87',
-   'footer_top' => '#333f48',
-   'front_box' => '#333f48',
-   'menu_color' => '#000000',
-  );
-  $export['designkit_color'] = $strongarm;
 
   return $export;
 }

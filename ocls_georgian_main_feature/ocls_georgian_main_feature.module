@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the OCLS Georgian Main Feature feature.
+ */
+
+include_once 'ocls_georgian_main_feature.features.inc';

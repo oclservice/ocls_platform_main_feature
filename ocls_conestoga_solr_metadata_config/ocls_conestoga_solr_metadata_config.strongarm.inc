@@ -45,11 +45,11 @@ function ocls_conestoga_solr_metadata_config_strongarm() {
   $strongarm->name = 'islandora_solr_primary_display_table';
   $strongarm->value = array(
     'weight' => array(
-      'bookmark' => '0',
-      'default' => '0',
-      'grid' => '0',
-      'table' => '0',
-      'xquery' => '0',
+      'bookmark' => '-10',
+      'default' => '-9',
+      'grid' => '-8',
+      'table' => '-7',
+      'xquery' => '-6',
     ),
     'default' => 'default',
     'enabled' => array(

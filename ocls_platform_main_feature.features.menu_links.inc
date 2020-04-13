@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_platform_main_feature.features.menu_links.inc
@@ -10,6 +11,26 @@
 function ocls_platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_about:uuid/node/ba136a9c-72d6-40c6-8b25-d30491032211.
+  $menu_links['main-menu_about:uuid/node/ba136a9c-72d6-40c6-8b25-d30491032211'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'uuid/node/ba136a9c-72d6-40c6-8b25-d30491032211',
+    'router_path' => 'uuid',
+    'link_title' => 'About',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_about:uuid/node/ba136a9c-72d6-40c6-8b25-d30491032211',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_browse-all-collections:islandora.
   $menu_links['main-menu_browse-all-collections:islandora'] = array(
     'menu_name' => 'main-menu',
@@ -25,6 +46,63 @@ function ocls_platform_main_feature_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_contact:uuid/node/4d8b6a52-aebb-4386-b2f2-4799f5d940ce.
+  $menu_links['main-menu_contact:uuid/node/4d8b6a52-aebb-4386-b2f2-4799f5d940ce'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'uuid/node/4d8b6a52-aebb-4386-b2f2-4799f5d940ce',
+    'router_path' => 'uuid',
+    'link_title' => 'Contact',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_contact:uuid/node/4d8b6a52-aebb-4386-b2f2-4799f5d940ce',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -45,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_faqs:uuid/node/7ab584f0-6372-4520-9283-42064a546a08.
+  $menu_links['main-menu_faqs:uuid/node/7ab584f0-6372-4520-9283-42064a546a08'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'uuid/node/7ab584f0-6372-4520-9283-42064a546a08',
+    'router_path' => 'uuid',
+    'link_title' => 'FAQs',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_faqs:uuid/node/7ab584f0-6372-4520-9283-42064a546a08',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_home:<front>.
+  $menu_links['main-menu_home:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Home',
+    'options' => array(
+      'identifier' => 'main-menu_home:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
@@ -47,7 +125,7 @@ function ocls_platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -43,
+    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: main-menu_log-out:user/logout.
@@ -67,7 +145,7 @@ function ocls_platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
+    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: main-menu_partner-institutions:ocls-repositories.
@@ -88,6 +166,26 @@ function ocls_platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_submit-objects:uuid/node/dfe198d8-fce5-442c-812c-8935fcf2aa82.
+  $menu_links['main-menu_submit-objects:uuid/node/dfe198d8-fce5-442c-812c-8935fcf2aa82'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'uuid/node/dfe198d8-fce5-442c-812c-8935fcf2aa82',
+    'router_path' => 'uuid',
+    'link_title' => 'Submit Objects',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_submit-objects:uuid/node/dfe198d8-fce5-442c-812c-8935fcf2aa82',
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
@@ -243,7 +341,7 @@ function ocls_platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_browse-collections:islandora/object',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -273,10 +371,14 @@ function ocls_platform_main_feature_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('About');
   t('About this site');
   t('Browse All Collections');
   t('Browse Collections');
+  t('Contact');
   t('Creative content license');
+  t('FAQs');
+  t('Home');
   t('Log Out');
   t('Log in');
   t('Login');
@@ -285,6 +387,7 @@ function ocls_platform_main_feature_menu_default_menu_links() {
   t('Partner Institutions');
   t('Policies');
   t('Researchers');
+  t('Submit Objects');
 
   return $menu_links;
 }

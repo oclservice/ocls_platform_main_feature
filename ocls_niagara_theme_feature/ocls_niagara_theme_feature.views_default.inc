@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ocls_niagara_theme_feature.views_default.inc
@@ -57,6 +58,8 @@ function ocls_niagara_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
   $handler->display->display_options['fields']['body']['field'] = 'body';
   $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['alter']['text'] = 'As Information Literacy Librarian at NCLibraries, I work with students and faculty on academic integrity issues and Open Educational Resources. I also provide research support to students in the Bachelor degree programs.
+Depending on the day of the week, I can be found at either the NOTL or the Welland Campus. ';
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
@@ -100,6 +103,8 @@ function ocls_niagara_theme_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('As Information Literacy Librarian at NCLibraries, I work with students and faculty on academic integrity issues and Open Educational Resources. I also provide research support to students in the Bachelor degree programs.
+Depending on the day of the week, I can be found at either the NOTL or the Welland Campus. '),
     t('<a title="[title]" href="[field_image_block_link]">[field_image_block]</a>'),
     t('Block'),
   );
