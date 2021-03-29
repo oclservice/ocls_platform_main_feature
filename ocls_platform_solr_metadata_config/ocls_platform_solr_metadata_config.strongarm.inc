@@ -44,20 +44,20 @@ function ocls_platform_solr_metadata_config_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_primary_display_table';
   $strongarm->value = array(
+    'default' => 'default',
+    'enabled' => array(
+      'bookmark' => 0,
+      'default' => 'default',
+      'grid' => 'grid',
+      'table' => 0,
+      'xquery' => 0,
+    ),
     'weight' => array(
       'bookmark' => '0',
       'default' => '0',
       'grid' => '0',
       'table' => '0',
       'xquery' => '0',
-    ),
-    'default' => 'default',
-    'enabled' => array(
-      'grid' => 'grid',
-      'bookmark' => 0,
-      'default' => 'default',
-      'table' => 0,
-      'xquery' => 0,
     ),
   );
   $export['islandora_solr_primary_display_table'] = $strongarm;

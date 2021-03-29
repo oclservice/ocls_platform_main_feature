@@ -72,15 +72,15 @@ function ocls_platform_content_types_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__image_block';
   $strongarm->value = array(
-    'view_modes' => array(),
     'extra_fields' => array(
+      'display' => array(),
       'form' => array(
         'title' => array(
           'weight' => '0',
         ),
       ),
-      'display' => array(),
     ),
+    'view_modes' => array(),
   );
   $export['field_bundle_settings_node__image_block'] = $strongarm;
 
@@ -89,15 +89,15 @@ function ocls_platform_content_types_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__institution';
   $strongarm->value = array(
-    'view_modes' => array(),
     'extra_fields' => array(
+      'display' => array(),
       'form' => array(
         'title' => array(
           'weight' => '-5',
         ),
       ),
-      'display' => array(),
     ),
+    'view_modes' => array(),
   );
   $export['field_bundle_settings_node__institution'] = $strongarm;
 
@@ -148,10 +148,8 @@ function ocls_platform_content_types_strongarm() {
   $strongarm->name = 'node_export_file_types';
   $strongarm->value = array(
     'article' => 'article',
-    'page' => 'page',
     'image_block' => 'image_block',
-    'institution' => 'institution',
-    'islandora_autocomplete_fields' => 0,
+    'page' => 'page',
   );
   $export['node_export_file_types'] = $strongarm;
 
